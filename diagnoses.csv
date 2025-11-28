@@ -1,0 +1,16 @@
+diagnosis_code,diagnosis_description,diagnosis_category
+I10,Essential (primary) hypertension,Cardiology
+I21,Acute myocardial infarction,Cardiology
+J18,"Pneumonia, unspecified organism",Pulmonology
+E11,Type 2 diabetes mellitus,Endocrinology
+N39,"Urinary tract infection, site not specified",Urology
+K21,Gastro-esophageal reflux disease,Gastroenterology
+F32,"Major depressive disorder, single episode",Psychiatry
+M54,Dorsalgia (back pain),Orthopedics
+R07,Chest pain,Emergency
+G40,Epilepsy and recurrent seizures,Neurology
+J45,Asthma,Pulmonology
+C34,Malignant neoplasm of bronchus and lung,Oncology
+S72,Fracture of femur,Orthopedics
+E78,Disorders of lipoprotein metabolism (hyperlipidemia),Cardiology
+I63,Cerebral infarction (stroke),Neurology

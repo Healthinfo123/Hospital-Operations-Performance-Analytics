@@ -1,0 +1,981 @@
+encounter_id,medication_name,therapeutic_class,dose,route
+E200002,Piperacillin-tazobactam,Antibiotic,250 mg,SC
+E200002,Cefepime,Antibiotic,500 mg,IV
+E200002,Warfarin,Anticoagulant,500 mg,IM
+E200003,Cefepime,Antibiotic,100 mg,IV
+E200003,Atorvastatin,Lipid-lowering,250 mg,IM
+E200004,Aspirin,Antiplatelet,100 mg,IM
+E200004,Salbutamol,Bronchodilator,75 mg,IM
+E200005,Morphine,Analgesic,500 mg,IV
+E200005,Morphine,Analgesic,1000 mg,SC
+E200005,Atorvastatin,Lipid-lowering,100 mg,PO
+E200005,Atorvastatin,Lipid-lowering,250 mg,PO
+E200006,Furosemide,Diuretic,100 mg,PO
+E200006,Enoxaparin,Anticoagulant,50 mg,IV
+E200006,Furosemide,Diuretic,100 mg,PO
+E200007,Amoxicillin,Antibiotic,100 mg,IV
+E200007,Metformin,Antidiabetic,1000 mg,SC
+E200008,Cefepime,Antibiotic,100 mg,SC
+E200008,Piperacillin-tazobactam,Antibiotic,75 mg,IM
+E200009,Cefepime,Antibiotic,,IV
+E200009,Atorvastatin,Lipid-lowering,500 mg,IV
+E200009,Cefepime,Antibiotic,1000 mg,IM
+E200010,Enoxaparin,Anticoagulant,1000 mg,IM
+E200010,Piperacillin-tazobactam,Antibiotic,100 mg,SC
+E200010,Amoxicillin,Antibiotic,100 mg,IM
+E200011,Metformin,Antidiabetic,1000 mg,SC
+E200011,Salbutamol,Bronchodilator,250 mg,IM
+E200012,Prednisone,Steroid,1000 mg,IM
+E200012,Furosemide,Diuretic,,IM
+E200013,Insulin Regular,Insulin,,IV
+E200014,Amoxicillin,Antibiotic,1000 mg,
+E200014,Morphine,Analgesic,500 mg,PO
+E200014,Warfarin,Anticoagulant,1000 mg,PO
+E200015,Ceftriaxone,Antibiotic,50 mg,PO
+E200016,Furosemide,Diuretic,75 mg,IV
+E200016,Aspirin,Antiplatelet,1000 mg,IM
+E200017,Ceftriaxone,Antibiotic,250 mg,PO
+E200017,Prednisone,Steroid,250 mg,IV
+E200018,Furosemide,Diuretic,125 mg,PO
+E200019,Amoxicillin,Antibiotic,250 mg,SC
+E200019,Cefepime,Antibiotic,500 mg,SC
+E200019,Ceftriaxone,Antibiotic,75 mg,SC
+E200019,Atorvastatin,Lipid-lowering,,SC
+E200020,Cefepime,Antibiotic,250 mg,PO
+E200020,Metformin,Antidiabetic,500 mg,IM
+E200020,Amoxicillin,Antibiotic,250 mg,PO
+E200021,Atorvastatin,Lipid-lowering,50 mg,IV
+E200021,Cefepime,Antibiotic,125 mg,SC
+E200022,Atorvastatin,Lipid-lowering,500 mg,SC
+E200023,Insulin Regular,Insulin,500 mg,SC
+E200023,Furosemide,Diuretic,1000 mg,IM
+E200023,Metformin,Antidiabetic,1000 mg,PO
+E200024,Amoxicillin,Antibiotic,100 mg,
+E200024,Amoxicillin,Antibiotic,100 mg,
+E200024,Morphine,Analgesic,1000 mg,PO
+E200025,Enoxaparin,Anticoagulant,1000 mg,IV
+E200025,Insulin Regular,Insulin,500 mg,IM
+E200026,Piperacillin-tazobactam,Antibiotic,500 mg,PO
+E200027,Enoxaparin,Anticoagulant,500 mg,PO
+E200027,Ceftriaxone,Antibiotic,1000 mg,IV
+E200027,Ceftriaxone,Antibiotic,100 mg,IM
+E200027,Prednisone,Steroid,1000 mg,PO
+E200028,Amoxicillin,Antibiotic,75 mg,IV
+E200029,Furosemide,Diuretic,75 mg,IM
+E200029,Salbutamol,Bronchodilator,100 mg,IV
+E200030,Amoxicillin,Antibiotic,125 mg,PO
+E200030,Cefepime,Antibiotic,1000 mg,SC
+E200030,Cefepime,Antibiotic,100 mg,PO
+E200031,Prednisone,Steroid,1000 mg,SC
+E200031,Aspirin,Antiplatelet,100 mg,IM
+E200032,Atorvastatin,Lipid-lowering,,PO
+E200032,Ceftriaxone,Antibiotic,500 mg,SC
+E200033,Omeprazole,Acid reducer,100 mg,IV
+E200034,Prednisone,Steroid,250 mg,SC
+E200034,Amoxicillin,Antibiotic,250 mg,IV
+E200035,Aspirin,Antiplatelet,1000 mg,IV
+E200036,Aspirin,Antiplatelet,50 mg,SC
+E200036,Piperacillin-tazobactam,Antibiotic,100 mg,PO
+E200037,Warfarin,Anticoagulant,1000 mg,IV
+E200038,Metformin,Antidiabetic,50 mg,IM
+E200038,Ceftriaxone,Antibiotic,250 mg,IM
+E200038,Amoxicillin,Antibiotic,250 mg,IV
+E200039,Metformin,Antidiabetic,500 mg,SC
+E200040,Insulin Regular,Insulin,500 mg,PO
+E200040,Salbutamol,Bronchodilator,1000 mg,IV
+E200041,Furosemide,Diuretic,100 mg,PO
+E200042,Insulin Regular,Insulin,,PO
+E200042,Omeprazole,Acid reducer,1000 mg,IM
+E200042,Furosemide,Diuretic,1000 mg,PO
+E200043,Aspirin,Antiplatelet,1000 mg,PO
+E200043,Atorvastatin,Lipid-lowering,250 mg,IV
+E200044,Atorvastatin,Lipid-lowering,125 mg,IM
+E200044,Cefepime,Antibiotic,50 mg,IM
+E200044,Insulin Regular,Insulin,100 mg,IV
+E200044,Cefepime,Antibiotic,125 mg,IM
+E200045,Metformin,Antidiabetic,75 mg,IM
+E200045,Furosemide,Diuretic,250 mg,PO
+E200045,Aspirin,Antiplatelet,75 mg,SC
+E200046,Prednisone,Steroid,125 mg,IV
+E200046,Piperacillin-tazobactam,Antibiotic,100 mg,IM
+E200047,Morphine,Analgesic,50 mg,IV
+E200047,Furosemide,Diuretic,1000 mg,IV
+E200048,Metformin,Antidiabetic,1000 mg,IV
+E200048,Omeprazole,Acid reducer,50 mg,IM
+E200048,Metformin,Antidiabetic,500 mg,IV
+E200048,Aspirin,Antiplatelet,100 mg,IV
+E200049,Amoxicillin,Antibiotic,250 mg,IM
+E200049,Piperacillin-tazobactam,Antibiotic,250 mg,IV
+E200050,Cefepime,Antibiotic,1000 mg,IM
+E200052,Cefepime,Antibiotic,,IM
+E200052,Warfarin,Anticoagulant,75 mg,IM
+E200053,Prednisone,Steroid,50 mg,IM
+E200053,Aspirin,Antiplatelet,75 mg,IV
+E200053,Cefepime,Antibiotic,125 mg,IM
+E200054,Piperacillin-tazobactam,Antibiotic,1000 mg,SC
+E200055,Enoxaparin,Anticoagulant,500 mg,IV
+E200055,Ceftriaxone,Antibiotic,500 mg,PO
+E200055,Enoxaparin,Anticoagulant,500 mg,IV
+E200055,Ceftriaxone,Antibiotic,75 mg,
+E200056,Atorvastatin,Lipid-lowering,1000 mg,IM
+E200056,Piperacillin-tazobactam,Antibiotic,250 mg,IV
+E200056,Warfarin,Anticoagulant,500 mg,SC
+E200057,Furosemide,Diuretic,500 mg,SC
+E200058,Cefepime,Antibiotic,125 mg,PO
+E200058,Prednisone,Steroid,75 mg,
+E200058,Omeprazole,Acid reducer,1000 mg,
+E200060,Morphine,Analgesic,50 mg,IM
+E200060,Insulin Regular,Insulin,500 mg,IM
+E200060,Metformin,Antidiabetic,1000 mg,IV
+E200061,Cefepime,Antibiotic,125 mg,IV
+E200061,Cefepime,Antibiotic,75 mg,PO
+E200062,Enoxaparin,Anticoagulant,,PO
+E200062,Prednisone,Steroid,50 mg,IM
+E200063,Metformin,Antidiabetic,500 mg,IM
+E200063,Warfarin,Anticoagulant,75 mg,IV
+E200064,Warfarin,Anticoagulant,100 mg,IV
+E200064,Metformin,Antidiabetic,,SC
+E200065,Cefepime,Antibiotic,,SC
+E200065,Omeprazole,Acid reducer,125 mg,PO
+E200066,Aspirin,Antiplatelet,,PO
+E200067,Metformin,Antidiabetic,250 mg,SC
+E200067,Insulin Regular,Insulin,50 mg,PO
+E200068,Cefepime,Antibiotic,500 mg,SC
+E200068,Piperacillin-tazobactam,Antibiotic,500 mg,PO
+E200068,Warfarin,Anticoagulant,1000 mg,PO
+E200068,Cefepime,Antibiotic,100 mg,SC
+E200069,Omeprazole,Acid reducer,100 mg,PO
+E200070,Warfarin,Anticoagulant,100 mg,IV
+E200070,Ceftriaxone,Antibiotic,250 mg,IV
+E200071,Prednisone,Steroid,250 mg,IV
+E200071,Insulin Regular,Insulin,50 mg,
+E200071,Warfarin,Anticoagulant,1000 mg,PO
+E200071,Enoxaparin,Anticoagulant,500 mg,IV
+E200072,Amoxicillin,Antibiotic,50 mg,SC
+E200072,Metformin,Antidiabetic,1000 mg,SC
+E200072,Warfarin,Anticoagulant,1000 mg,PO
+E200073,Insulin Regular,Insulin,1000 mg,IV
+E200074,Atorvastatin,Lipid-lowering,,IM
+E200074,Omeprazole,Acid reducer,1000 mg,IV
+E200074,Prednisone,Steroid,1000 mg,IV
+E200074,Aspirin,Antiplatelet,50 mg,PO
+E200075,Prednisone,Steroid,,IV
+E200075,Salbutamol,Bronchodilator,1000 mg,SC
+E200075,Enoxaparin,Anticoagulant,75 mg,IM
+E200075,Enoxaparin,Anticoagulant,500 mg,PO
+E200076,Prednisone,Steroid,100 mg,IV
+E200076,Cefepime,Antibiotic,75 mg,IV
+E200077,Salbutamol,Bronchodilator,250 mg,SC
+E200078,Piperacillin-tazobactam,Antibiotic,250 mg,SC
+E200078,Amoxicillin,Antibiotic,125 mg,SC
+E200079,Prednisone,Steroid,50 mg,PO
+E200079,Warfarin,Anticoagulant,125 mg,IV
+E200079,Prednisone,Steroid,250 mg,SC
+E200080,Enoxaparin,Anticoagulant,500 mg,IV
+E200080,Enoxaparin,Anticoagulant,1000 mg,IV
+E200080,Aspirin,Antiplatelet,500 mg,IV
+E200081,Ceftriaxone,Antibiotic,,IV
+E200081,Enoxaparin,Anticoagulant,250 mg,SC
+E200081,Omeprazole,Acid reducer,50 mg,IM
+E200081,Piperacillin-tazobactam,Antibiotic,75 mg,PO
+E200082,Amoxicillin,Antibiotic,50 mg,SC
+E200082,Prednisone,Steroid,125 mg,IM
+E200083,Atorvastatin,Lipid-lowering,1000 mg,IV
+E200083,Warfarin,Anticoagulant,250 mg,SC
+E200084,Amoxicillin,Antibiotic,1000 mg,SC
+E200085,Piperacillin-tazobactam,Antibiotic,75 mg,IV
+E200085,Ceftriaxone,Antibiotic,1000 mg,IV
+E200086,Furosemide,Diuretic,75 mg,IM
+E200086,Omeprazole,Acid reducer,125 mg,IV
+E200087,Ceftriaxone,Antibiotic,,SC
+E200087,Prednisone,Steroid,250 mg,IV
+E200088,Furosemide,Diuretic,100 mg,IM
+E200089,Piperacillin-tazobactam,Antibiotic,250 mg,IV
+E200090,Aspirin,Antiplatelet,1000 mg,IM
+E200090,Atorvastatin,Lipid-lowering,125 mg,IV
+E200090,Cefepime,Antibiotic,100 mg,IM
+E200091,Amoxicillin,Antibiotic,500 mg,IM
+E200092,Metformin,Antidiabetic,250 mg,PO
+E200092,Morphine,Analgesic,50 mg,PO
+E200093,Amoxicillin,Antibiotic,125 mg,SC
+E200093,Aspirin,Antiplatelet,100 mg,IV
+E200093,Atorvastatin,Lipid-lowering,50 mg,SC
+E200094,Morphine,Analgesic,125 mg,IV
+E200094,Omeprazole,Acid reducer,100 mg,
+E200094,Piperacillin-tazobactam,Antibiotic,500 mg,IV
+E200095,Insulin Regular,Insulin,1000 mg,
+E200097,Warfarin,Anticoagulant,250 mg,IM
+E200097,Piperacillin-tazobactam,Antibiotic,50 mg,IM
+E200097,Omeprazole,Acid reducer,250 mg,IV
+E200098,Morphine,Analgesic,50 mg,PO
+E200098,Furosemide,Diuretic,250 mg,PO
+E200098,Atorvastatin,Lipid-lowering,75 mg,IM
+E200099,Omeprazole,Acid reducer,,IM
+E200100,Cefepime,Antibiotic,125 mg,IM
+E200100,Morphine,Analgesic,125 mg,PO
+E200100,Enoxaparin,Anticoagulant,500 mg,PO
+E200101,Amoxicillin,Antibiotic,1000 mg,SC
+E200101,Aspirin,Antiplatelet,250 mg,IV
+E200101,Insulin Regular,Insulin,125 mg,IM
+E200102,Omeprazole,Acid reducer,75 mg,IV
+E200102,Aspirin,Antiplatelet,100 mg,SC
+E200102,Furosemide,Diuretic,,PO
+E200102,Cefepime,Antibiotic,50 mg,SC
+E200104,Warfarin,Anticoagulant,500 mg,SC
+E200104,Furosemide,Diuretic,50 mg,IM
+E200105,Ceftriaxone,Antibiotic,50 mg,SC
+E200105,Insulin Regular,Insulin,75 mg,PO
+E200106,Insulin Regular,Insulin,125 mg,SC
+E200107,Insulin Regular,Insulin,500 mg,IM
+E200107,Ceftriaxone,Antibiotic,50 mg,IV
+E200108,Enoxaparin,Anticoagulant,100 mg,IM
+E200109,Piperacillin-tazobactam,Antibiotic,1000 mg,SC
+E200110,Omeprazole,Acid reducer,,PO
+E200111,Atorvastatin,Lipid-lowering,100 mg,PO
+E200111,Ceftriaxone,Antibiotic,75 mg,IV
+E200112,Cefepime,Antibiotic,75 mg,PO
+E200112,Piperacillin-tazobactam,Antibiotic,,SC
+E200113,Morphine,Analgesic,500 mg,SC
+E200113,Piperacillin-tazobactam,Antibiotic,250 mg,IM
+E200113,Ceftriaxone,Antibiotic,250 mg,IV
+E200114,Prednisone,Steroid,50 mg,PO
+E200114,Atorvastatin,Lipid-lowering,1000 mg,SC
+E200114,Insulin Regular,Insulin,125 mg,SC
+E200115,Cefepime,Antibiotic,50 mg,SC
+E200115,Amoxicillin,Antibiotic,75 mg,SC
+E200117,Furosemide,Diuretic,1000 mg,SC
+E200117,Amoxicillin,Antibiotic,50 mg,IM
+E200117,Ceftriaxone,Antibiotic,250 mg,IM
+E200118,Omeprazole,Acid reducer,1000 mg,SC
+E200118,Piperacillin-tazobactam,Antibiotic,75 mg,IM
+E200119,Omeprazole,Acid reducer,500 mg,SC
+E200120,Insulin Regular,Insulin,1000 mg,PO
+E200121,Amoxicillin,Antibiotic,125 mg,SC
+E200121,Furosemide,Diuretic,100 mg,PO
+E200122,Metformin,Antidiabetic,100 mg,IM
+E200123,Enoxaparin,Anticoagulant,75 mg,SC
+E200123,Omeprazole,Acid reducer,100 mg,IM
+E200124,Ceftriaxone,Antibiotic,1000 mg,IM
+E200124,Omeprazole,Acid reducer,75 mg,IV
+E200125,Ceftriaxone,Antibiotic,250 mg,PO
+E200125,Insulin Regular,Insulin,1000 mg,PO
+E200126,Cefepime,Antibiotic,500 mg,IV
+E200127,Metformin,Antidiabetic,250 mg,SC
+E200127,Morphine,Analgesic,250 mg,IM
+E200127,Morphine,Analgesic,500 mg,SC
+E200128,Amoxicillin,Antibiotic,,IM
+E200128,Omeprazole,Acid reducer,250 mg,IM
+E200129,Furosemide,Diuretic,1000 mg,IV
+E200130,Prednisone,Steroid,75 mg,PO
+E200130,Aspirin,Antiplatelet,125 mg,SC
+E200130,Amoxicillin,Antibiotic,1000 mg,IV
+E200130,Amoxicillin,Antibiotic,1000 mg,SC
+E200131,Enoxaparin,Anticoagulant,250 mg,IV
+E200131,Omeprazole,Acid reducer,125 mg,PO
+E200132,Warfarin,Anticoagulant,500 mg,IV
+E200132,Morphine,Analgesic,75 mg,IM
+E200133,Morphine,Analgesic,50 mg,PO
+E200133,Ceftriaxone,Antibiotic,75 mg,IM
+E200134,Piperacillin-tazobactam,Antibiotic,250 mg,SC
+E200134,Salbutamol,Bronchodilator,1000 mg,IV
+E200134,Salbutamol,Bronchodilator,100 mg,IM
+E200135,Salbutamol,Bronchodilator,75 mg,IM
+E200135,Ceftriaxone,Antibiotic,125 mg,IV
+E200135,Enoxaparin,Anticoagulant,100 mg,IM
+E200136,Furosemide,Diuretic,250 mg,IV
+E200138,Salbutamol,Bronchodilator,125 mg,PO
+E200138,Warfarin,Anticoagulant,50 mg,SC
+E200139,Cefepime,Antibiotic,125 mg,PO
+E200139,Warfarin,Anticoagulant,500 mg,IV
+E200141,Insulin Regular,Insulin,,PO
+E200142,Metformin,Antidiabetic,250 mg,SC
+E200142,Ceftriaxone,Antibiotic,500 mg,IM
+E200143,Atorvastatin,Lipid-lowering,500 mg,SC
+E200143,Amoxicillin,Antibiotic,500 mg,IV
+E200143,Furosemide,Diuretic,50 mg,SC
+E200143,Ceftriaxone,Antibiotic,500 mg,IV
+E200144,Ceftriaxone,Antibiotic,50 mg,IM
+E200144,Morphine,Analgesic,50 mg,IM
+E200145,Piperacillin-tazobactam,Antibiotic,500 mg,IM
+E200145,Atorvastatin,Lipid-lowering,100 mg,SC
+E200145,Prednisone,Steroid,500 mg,PO
+E200146,Warfarin,Anticoagulant,125 mg,IM
+E200146,Enoxaparin,Anticoagulant,50 mg,SC
+E200147,Ceftriaxone,Antibiotic,,SC
+E200147,Amoxicillin,Antibiotic,,IM
+E200148,Enoxaparin,Anticoagulant,50 mg,IM
+E200149,Warfarin,Anticoagulant,250 mg,SC
+E200150,Enoxaparin,Anticoagulant,50 mg,PO
+E200150,Metformin,Antidiabetic,125 mg,IM
+E200150,Aspirin,Antiplatelet,50 mg,PO
+E200151,Aspirin,Antiplatelet,75 mg,IV
+E200152,Enoxaparin,Anticoagulant,75 mg,PO
+E200152,Salbutamol,Bronchodilator,125 mg,PO
+E200153,Morphine,Analgesic,125 mg,SC
+E200153,Prednisone,Steroid,1000 mg,IV
+E200153,Warfarin,Anticoagulant,500 mg,IV
+E200153,Atorvastatin,Lipid-lowering,50 mg,PO
+E200154,Salbutamol,Bronchodilator,75 mg,SC
+E200154,Omeprazole,Acid reducer,250 mg,IV
+E200154,Cefepime,Antibiotic,75 mg,SC
+E200155,Ceftriaxone,Antibiotic,100 mg,PO
+E200155,Morphine,Analgesic,500 mg,IV
+E200156,Enoxaparin,Anticoagulant,100 mg,PO
+E200157,Insulin Regular,Insulin,,SC
+E200157,Insulin Regular,Insulin,250 mg,IV
+E200158,Omeprazole,Acid reducer,250 mg,IV
+E200158,Salbutamol,Bronchodilator,50 mg,PO
+E200159,Omeprazole,Acid reducer,1000 mg,IM
+E200159,Enoxaparin,Anticoagulant,1000 mg,SC
+E200159,Metformin,Antidiabetic,75 mg,IV
+E200159,Ceftriaxone,Antibiotic,50 mg,IM
+E200160,Insulin Regular,Insulin,,IM
+E200160,Aspirin,Antiplatelet,50 mg,IM
+E200160,Cefepime,Antibiotic,1000 mg,IV
+E200160,Warfarin,Anticoagulant,75 mg,SC
+E200161,Prednisone,Steroid,,PO
+E200161,Warfarin,Anticoagulant,250 mg,IM
+E200162,Cefepime,Antibiotic,250 mg,IM
+E200162,Atorvastatin,Lipid-lowering,50 mg,IV
+E200163,Warfarin,Anticoagulant,125 mg,PO
+E200163,Omeprazole,Acid reducer,1000 mg,IM
+E200164,Enoxaparin,Anticoagulant,75 mg,PO
+E200165,Metformin,Antidiabetic,50 mg,PO
+E200165,Warfarin,Anticoagulant,125 mg,SC
+E200166,Insulin Regular,Insulin,500 mg,PO
+E200166,Furosemide,Diuretic,75 mg,IV
+E200166,Salbutamol,Bronchodilator,250 mg,IV
+E200167,Aspirin,Antiplatelet,1000 mg,PO
+E200167,Furosemide,Diuretic,125 mg,PO
+E200167,Enoxaparin,Anticoagulant,50 mg,SC
+E200168,Cefepime,Antibiotic,125 mg,PO
+E200168,Prednisone,Steroid,100 mg,PO
+E200169,Atorvastatin,Lipid-lowering,250 mg,IV
+E200170,Salbutamol,Bronchodilator,100 mg,SC
+E200170,Metformin,Antidiabetic,100 mg,PO
+E200171,Warfarin,Anticoagulant,,IM
+E200171,Salbutamol,Bronchodilator,500 mg,PO
+E200171,Ceftriaxone,Antibiotic,50 mg,PO
+E200171,Furosemide,Diuretic,75 mg,IM
+E200172,Furosemide,Diuretic,250 mg,IM
+E200172,Morphine,Analgesic,500 mg,IV
+E200173,Piperacillin-tazobactam,Antibiotic,1000 mg,IV
+E200173,Warfarin,Anticoagulant,250 mg,SC
+E200174,Cefepime,Antibiotic,125 mg,IV
+E200174,Salbutamol,Bronchodilator,100 mg,IV
+E200174,Morphine,Analgesic,,IV
+E200175,Prednisone,Steroid,,SC
+E200175,Insulin Regular,Insulin,75 mg,PO
+E200176,Cefepime,Antibiotic,75 mg,IM
+E200176,Furosemide,Diuretic,1000 mg,IM
+E200177,Omeprazole,Acid reducer,100 mg,PO
+E200177,Prednisone,Steroid,125 mg,SC
+E200177,Cefepime,Antibiotic,75 mg,
+E200178,Furosemide,Diuretic,125 mg,IV
+E200179,Salbutamol,Bronchodilator,500 mg,IV
+E200179,Cefepime,Antibiotic,1000 mg,PO
+E200179,Metformin,Antidiabetic,75 mg,SC
+E200180,Insulin Regular,Insulin,1000 mg,IM
+E200180,Prednisone,Steroid,75 mg,SC
+E200180,Salbutamol,Bronchodilator,75 mg,IV
+E200180,Salbutamol,Bronchodilator,125 mg,IV
+E200181,Amoxicillin,Antibiotic,1000 mg,IM
+E200181,Warfarin,Anticoagulant,125 mg,SC
+E200182,Enoxaparin,Anticoagulant,75 mg,IV
+E200182,Prednisone,Steroid,75 mg,IV
+E200183,Ceftriaxone,Antibiotic,50 mg,IV
+E200183,Amoxicillin,Antibiotic,50 mg,IM
+E200184,Warfarin,Anticoagulant,250 mg,
+E200185,Warfarin,Anticoagulant,100 mg,SC
+E200185,Furosemide,Diuretic,1000 mg,PO
+E200185,Salbutamol,Bronchodilator,1000 mg,PO
+E200186,Ceftriaxone,Antibiotic,500 mg,PO
+E200187,Enoxaparin,Anticoagulant,,IV
+E200188,Amoxicillin,Antibiotic,1000 mg,SC
+E200189,Salbutamol,Bronchodilator,125 mg,SC
+E200189,Atorvastatin,Lipid-lowering,,PO
+E200190,Insulin Regular,Insulin,250 mg,IV
+E200191,Amoxicillin,Antibiotic,75 mg,IM
+E200191,Enoxaparin,Anticoagulant,75 mg,IV
+E200191,Amoxicillin,Antibiotic,500 mg,SC
+E200192,Piperacillin-tazobactam,Antibiotic,75 mg,PO
+E200192,Piperacillin-tazobactam,Antibiotic,125 mg,IM
+E200193,Cefepime,Antibiotic,100 mg,IM
+E200194,Furosemide,Diuretic,250 mg,IM
+E200194,Atorvastatin,Lipid-lowering,50 mg,PO
+E200195,Metformin,Antidiabetic,100 mg,PO
+E200195,Metformin,Antidiabetic,,SC
+E200196,Enoxaparin,Anticoagulant,,SC
+E200196,Omeprazole,Acid reducer,50 mg,SC
+E200197,Insulin Regular,Insulin,75 mg,SC
+E200197,Metformin,Antidiabetic,,PO
+E200198,Insulin Regular,Insulin,50 mg,PO
+E200198,Enoxaparin,Anticoagulant,250 mg,SC
+E200199,Atorvastatin,Lipid-lowering,50 mg,IV
+E200199,Omeprazole,Acid reducer,50 mg,PO
+E200200,Omeprazole,Acid reducer,500 mg,IM
+E200201,Piperacillin-tazobactam,Antibiotic,250 mg,IV
+E200201,Furosemide,Diuretic,250 mg,IM
+E200201,Salbutamol,Bronchodilator,500 mg,IV
+E200202,Omeprazole,Acid reducer,75 mg,IM
+E200202,Aspirin,Antiplatelet,250 mg,PO
+E200202,Enoxaparin,Anticoagulant,50 mg,IV
+E200203,Prednisone,Steroid,50 mg,PO
+E200203,Omeprazole,Acid reducer,100 mg,IM
+E200203,Omeprazole,Acid reducer,1000 mg,SC
+E200204,Cefepime,Antibiotic,125 mg,IV
+E200204,Warfarin,Anticoagulant,100 mg,IV
+E200205,Morphine,Analgesic,1000 mg,SC
+E200205,Insulin Regular,Insulin,75 mg,IV
+E200206,Aspirin,Antiplatelet,50 mg,IV
+E200207,Prednisone,Steroid,250 mg,PO
+E200207,Cefepime,Antibiotic,1000 mg,IM
+E200208,Warfarin,Anticoagulant,,IM
+E200208,Morphine,Analgesic,250 mg,SC
+E200209,Omeprazole,Acid reducer,75 mg,PO
+E200209,Salbutamol,Bronchodilator,125 mg,IM
+E200210,Aspirin,Antiplatelet,500 mg,PO
+E200210,Piperacillin-tazobactam,Antibiotic,250 mg,PO
+E200210,Amoxicillin,Antibiotic,100 mg,IV
+E200210,Warfarin,Anticoagulant,1000 mg,IV
+E200211,Omeprazole,Acid reducer,50 mg,IV
+E200211,Prednisone,Steroid,50 mg,IV
+E200212,Cefepime,Antibiotic,,SC
+E200212,Prednisone,Steroid,1000 mg,IV
+E200213,Omeprazole,Acid reducer,250 mg,IV
+E200214,Furosemide,Diuretic,75 mg,SC
+E200215,Insulin Regular,Insulin,100 mg,IM
+E200216,Insulin Regular,Insulin,250 mg,PO
+E200217,Furosemide,Diuretic,100 mg,SC
+E200217,Warfarin,Anticoagulant,,SC
+E200217,Morphine,Analgesic,1000 mg,SC
+E200218,Cefepime,Antibiotic,125 mg,IV
+E200218,Enoxaparin,Anticoagulant,50 mg,SC
+E200219,Salbutamol,Bronchodilator,,IV
+E200220,Enoxaparin,Anticoagulant,500 mg,SC
+E200221,Amoxicillin,Antibiotic,125 mg,IV
+E200222,Omeprazole,Acid reducer,500 mg,SC
+E200222,Salbutamol,Bronchodilator,125 mg,IM
+E200222,Aspirin,Antiplatelet,50 mg,IM
+E200222,Omeprazole,Acid reducer,125 mg,SC
+E200223,Piperacillin-tazobactam,Antibiotic,250 mg,PO
+E200223,Ceftriaxone,Antibiotic,75 mg,PO
+E200224,Ceftriaxone,Antibiotic,100 mg,IM
+E200224,Warfarin,Anticoagulant,100 mg,IM
+E200224,Omeprazole,Acid reducer,1000 mg,IM
+E200225,Insulin Regular,Insulin,50 mg,PO
+E200225,Metformin,Antidiabetic,125 mg,PO
+E200225,Prednisone,Steroid,500 mg,IV
+E200226,Salbutamol,Bronchodilator,125 mg,IM
+E200226,Cefepime,Antibiotic,75 mg,IV
+E200227,Metformin,Antidiabetic,1000 mg,IM
+E200228,Morphine,Analgesic,75 mg,IV
+E200228,Furosemide,Diuretic,125 mg,IV
+E200228,Aspirin,Antiplatelet,500 mg,SC
+E200229,Cefepime,Antibiotic,1000 mg,SC
+E200229,Omeprazole,Acid reducer,75 mg,PO
+E200230,Morphine,Analgesic,50 mg,PO
+E200231,Morphine,Analgesic,1000 mg,PO
+E200231,Ceftriaxone,Antibiotic,500 mg,PO
+E200232,Aspirin,Antiplatelet,1000 mg,IM
+E200232,Atorvastatin,Lipid-lowering,100 mg,IV
+E200233,Ceftriaxone,Antibiotic,125 mg,IV
+E200233,Omeprazole,Acid reducer,1000 mg,PO
+E200234,Metformin,Antidiabetic,,IM
+E200234,Prednisone,Steroid,1000 mg,PO
+E200234,Salbutamol,Bronchodilator,,SC
+E200235,Metformin,Antidiabetic,500 mg,SC
+E200235,Aspirin,Antiplatelet,,IV
+E200236,Amoxicillin,Antibiotic,125 mg,IV
+E200236,Omeprazole,Acid reducer,,IV
+E200236,Piperacillin-tazobactam,Antibiotic,125 mg,PO
+E200237,Enoxaparin,Anticoagulant,50 mg,PO
+E200237,Salbutamol,Bronchodilator,1000 mg,PO
+E200238,Piperacillin-tazobactam,Antibiotic,50 mg,SC
+E200239,Piperacillin-tazobactam,Antibiotic,125 mg,SC
+E200239,Warfarin,Anticoagulant,50 mg,PO
+E200240,Cefepime,Antibiotic,,IV
+E200240,Omeprazole,Acid reducer,250 mg,IV
+E200240,Amoxicillin,Antibiotic,50 mg,SC
+E200241,Warfarin,Anticoagulant,75 mg,
+E200241,Prednisone,Steroid,100 mg,IV
+E200241,Omeprazole,Acid reducer,1000 mg,PO
+E200241,Amoxicillin,Antibiotic,50 mg,IV
+E200242,Prednisone,Steroid,75 mg,IM
+E200242,Atorvastatin,Lipid-lowering,250 mg,SC
+E200242,Salbutamol,Bronchodilator,500 mg,IM
+E200242,Aspirin,Antiplatelet,125 mg,PO
+E200243,Insulin Regular,Insulin,500 mg,SC
+E200243,Furosemide,Diuretic,50 mg,IM
+E200243,Aspirin,Antiplatelet,100 mg,SC
+E200243,Piperacillin-tazobactam,Antibiotic,50 mg,IM
+E200245,Enoxaparin,Anticoagulant,50 mg,SC
+E200245,Ceftriaxone,Antibiotic,250 mg,SC
+E200246,Atorvastatin,Lipid-lowering,250 mg,PO
+E200246,Warfarin,Anticoagulant,250 mg,PO
+E200247,Ceftriaxone,Antibiotic,50 mg,SC
+E200247,Aspirin,Antiplatelet,75 mg,IV
+E200248,Warfarin,Anticoagulant,75 mg,SC
+E200248,Aspirin,Antiplatelet,1000 mg,IM
+E200249,Enoxaparin,Anticoagulant,,SC
+E200250,Enoxaparin,Anticoagulant,100 mg,IM
+E200251,Prednisone,Steroid,100 mg,IV
+E200252,Aspirin,Antiplatelet,250 mg,PO
+E200252,Morphine,Analgesic,125 mg,SC
+E200253,Metformin,Antidiabetic,100 mg,SC
+E200253,Enoxaparin,Anticoagulant,,PO
+E200253,Metformin,Antidiabetic,1000 mg,IM
+E200253,Salbutamol,Bronchodilator,1000 mg,IV
+E200254,Ceftriaxone,Antibiotic,250 mg,IV
+E200254,Atorvastatin,Lipid-lowering,,IM
+E200255,Morphine,Analgesic,1000 mg,SC
+E200255,Enoxaparin,Anticoagulant,100 mg,IV
+E200256,Salbutamol,Bronchodilator,75 mg,SC
+E200256,Insulin Regular,Insulin,125 mg,PO
+E200256,Amoxicillin,Antibiotic,1000 mg,IM
+E200257,Warfarin,Anticoagulant,75 mg,PO
+E200257,Piperacillin-tazobactam,Antibiotic,50 mg,
+E200258,Metformin,Antidiabetic,50 mg,SC
+E200258,Morphine,Analgesic,250 mg,IV
+E200260,Morphine,Analgesic,,SC
+E200260,Insulin Regular,Insulin,500 mg,PO
+E200260,Insulin Regular,Insulin,75 mg,IV
+E200261,Atorvastatin,Lipid-lowering,75 mg,
+E200262,Warfarin,Anticoagulant,75 mg,PO
+E200262,Prednisone,Steroid,100 mg,IM
+E200263,Metformin,Antidiabetic,100 mg,SC
+E200263,Amoxicillin,Antibiotic,100 mg,PO
+E200264,Atorvastatin,Lipid-lowering,100 mg,IV
+E200264,Morphine,Analgesic,250 mg,IV
+E200265,Aspirin,Antiplatelet,1000 mg,PO
+E200265,Cefepime,Antibiotic,1000 mg,PO
+E200266,Amoxicillin,Antibiotic,50 mg,IV
+E200266,Morphine,Analgesic,50 mg,IM
+E200267,Ceftriaxone,Antibiotic,1000 mg,PO
+E200267,Cefepime,Antibiotic,500 mg,IM
+E200267,Omeprazole,Acid reducer,75 mg,IM
+E200268,Omeprazole,Acid reducer,250 mg,IM
+E200269,Insulin Regular,Insulin,,IV
+E200269,Enoxaparin,Anticoagulant,125 mg,PO
+E200269,Atorvastatin,Lipid-lowering,,SC
+E200270,Morphine,Analgesic,500 mg,PO
+E200270,Insulin Regular,Insulin,250 mg,IM
+E200271,Prednisone,Steroid,50 mg,PO
+E200271,Ceftriaxone,Antibiotic,75 mg,SC
+E200272,Enoxaparin,Anticoagulant,,SC
+E200272,Atorvastatin,Lipid-lowering,50 mg,IM
+E200272,Insulin Regular,Insulin,1000 mg,IM
+E200273,Warfarin,Anticoagulant,100 mg,IV
+E200274,Amoxicillin,Antibiotic,1000 mg,PO
+E200274,Prednisone,Steroid,50 mg,PO
+E200274,Ceftriaxone,Antibiotic,50 mg,IV
+E200275,Morphine,Analgesic,50 mg,IV
+E200276,Warfarin,Anticoagulant,250 mg,PO
+E200277,Atorvastatin,Lipid-lowering,75 mg,IM
+E200277,Warfarin,Anticoagulant,75 mg,SC
+E200278,Morphine,Analgesic,125 mg,IM
+E200278,Warfarin,Anticoagulant,500 mg,PO
+E200278,Aspirin,Antiplatelet,50 mg,SC
+E200279,Piperacillin-tazobactam,Antibiotic,125 mg,IM
+E200279,Furosemide,Diuretic,1000 mg,IV
+E200280,Omeprazole,Acid reducer,125 mg,IV
+E200280,Ceftriaxone,Antibiotic,100 mg,PO
+E200281,Piperacillin-tazobactam,Antibiotic,50 mg,IV
+E200282,Atorvastatin,Lipid-lowering,250 mg,SC
+E200283,Furosemide,Diuretic,100 mg,SC
+E200284,Ceftriaxone,Antibiotic,100 mg,
+E200284,Piperacillin-tazobactam,Antibiotic,75 mg,SC
+E200285,Aspirin,Antiplatelet,500 mg,IM
+E200285,Prednisone,Steroid,250 mg,IM
+E200286,Omeprazole,Acid reducer,1000 mg,IM
+E200286,Prednisone,Steroid,1000 mg,PO
+E200287,Salbutamol,Bronchodilator,75 mg,IM
+E200287,Atorvastatin,Lipid-lowering,250 mg,IM
+E200287,Omeprazole,Acid reducer,1000 mg,IV
+E200287,Piperacillin-tazobactam,Antibiotic,125 mg,IV
+E200288,Ceftriaxone,Antibiotic,100 mg,IM
+E200288,Cefepime,Antibiotic,125 mg,IM
+E200289,Prednisone,Steroid,100 mg,IV
+E200290,Salbutamol,Bronchodilator,250 mg,SC
+E200290,Insulin Regular,Insulin,500 mg,SC
+E200291,Metformin,Antidiabetic,50 mg,IV
+E200292,Omeprazole,Acid reducer,125 mg,SC
+E200292,Metformin,Antidiabetic,100 mg,IM
+E200293,Insulin Regular,Insulin,100 mg,PO
+E200293,Furosemide,Diuretic,1000 mg,PO
+E200294,Ceftriaxone,Antibiotic,50 mg,SC
+E200295,Amoxicillin,Antibiotic,125 mg,IV
+E200295,Morphine,Analgesic,50 mg,SC
+E200296,Warfarin,Anticoagulant,125 mg,PO
+E200296,Cefepime,Antibiotic,250 mg,SC
+E200297,Furosemide,Diuretic,125 mg,PO
+E200297,Warfarin,Anticoagulant,125 mg,SC
+E200298,Salbutamol,Bronchodilator,125 mg,SC
+E200298,Salbutamol,Bronchodilator,125 mg,IV
+E200298,Omeprazole,Acid reducer,1000 mg,IV
+E200298,Prednisone,Steroid,75 mg,SC
+E200299,Insulin Regular,Insulin,1000 mg,PO
+E200299,Morphine,Analgesic,75 mg,IV
+E200299,Amoxicillin,Antibiotic,50 mg,IV
+E200299,Piperacillin-tazobactam,Antibiotic,50 mg,SC
+E200300,Prednisone,Steroid,500 mg,IV
+E200300,Enoxaparin,Anticoagulant,50 mg,IM
+E200302,Prednisone,Steroid,500 mg,PO
+E200302,Cefepime,Antibiotic,125 mg,IM
+E200303,Atorvastatin,Lipid-lowering,50 mg,
+E200303,Amoxicillin,Antibiotic,,PO
+E200303,Cefepime,Antibiotic,500 mg,SC
+E200304,Salbutamol,Bronchodilator,50 mg,SC
+E200304,Enoxaparin,Anticoagulant,250 mg,SC
+E200304,Warfarin,Anticoagulant,75 mg,IV
+E200304,Salbutamol,Bronchodilator,1000 mg,SC
+E200305,Morphine,Analgesic,125 mg,IV
+E200307,Morphine,Analgesic,75 mg,SC
+E200308,Ceftriaxone,Antibiotic,125 mg,IM
+E200308,Omeprazole,Acid reducer,250 mg,PO
+E200308,Piperacillin-tazobactam,Antibiotic,1000 mg,PO
+E200309,Aspirin,Antiplatelet,,IM
+E200309,Salbutamol,Bronchodilator,100 mg,IM
+E200309,Prednisone,Steroid,250 mg,IM
+E200310,Piperacillin-tazobactam,Antibiotic,,IV
+E200311,Metformin,Antidiabetic,75 mg,IV
+E200311,Salbutamol,Bronchodilator,125 mg,IV
+E200312,Enoxaparin,Anticoagulant,100 mg,IM
+E200312,Piperacillin-tazobactam,Antibiotic,1000 mg,IM
+E200312,Warfarin,Anticoagulant,250 mg,IV
+E200313,Amoxicillin,Antibiotic,125 mg,IM
+E200314,Piperacillin-tazobactam,Antibiotic,1000 mg,PO
+E200315,Amoxicillin,Antibiotic,,IM
+E200315,Cefepime,Antibiotic,100 mg,IM
+E200315,Morphine,Analgesic,100 mg,IM
+E200316,Insulin Regular,Insulin,250 mg,SC
+E200317,Cefepime,Antibiotic,,IV
+E200317,Amoxicillin,Antibiotic,1000 mg,IM
+E200317,Furosemide,Diuretic,1000 mg,IV
+E200318,Aspirin,Antiplatelet,50 mg,SC
+E200318,Furosemide,Diuretic,75 mg,SC
+E200318,Enoxaparin,Anticoagulant,,PO
+E200319,Atorvastatin,Lipid-lowering,250 mg,PO
+E200319,Enoxaparin,Anticoagulant,500 mg,IM
+E200320,Insulin Regular,Insulin,1000 mg,IV
+E200322,Omeprazole,Acid reducer,75 mg,PO
+E200322,Salbutamol,Bronchodilator,75 mg,PO
+E200322,Furosemide,Diuretic,1000 mg,IM
+E200323,Warfarin,Anticoagulant,125 mg,SC
+E200324,Enoxaparin,Anticoagulant,,IV
+E200324,Insulin Regular,Insulin,125 mg,IM
+E200324,Salbutamol,Bronchodilator,50 mg,IM
+E200325,Ceftriaxone,Antibiotic,75 mg,IV
+E200325,Insulin Regular,Insulin,50 mg,SC
+E200325,Salbutamol,Bronchodilator,75 mg,IM
+E200325,Salbutamol,Bronchodilator,125 mg,IM
+E200326,Warfarin,Anticoagulant,50 mg,IV
+E200327,Aspirin,Antiplatelet,250 mg,IV
+E200329,Atorvastatin,Lipid-lowering,100 mg,IM
+E200330,Amoxicillin,Antibiotic,100 mg,IV
+E200330,Enoxaparin,Anticoagulant,1000 mg,IV
+E200331,Omeprazole,Acid reducer,1000 mg,IV
+E200331,Insulin Regular,Insulin,50 mg,IV
+E200332,Enoxaparin,Anticoagulant,50 mg,IV
+E200333,Amoxicillin,Antibiotic,125 mg,IV
+E200334,Ceftriaxone,Antibiotic,,PO
+E200334,Morphine,Analgesic,250 mg,IM
+E200335,Piperacillin-tazobactam,Antibiotic,75 mg,IM
+E200336,Salbutamol,Bronchodilator,250 mg,PO
+E200336,Furosemide,Diuretic,250 mg,PO
+E200337,Furosemide,Diuretic,100 mg,IV
+E200337,Piperacillin-tazobactam,Antibiotic,,
+E200339,Omeprazole,Acid reducer,50 mg,PO
+E200340,Insulin Regular,Insulin,50 mg,PO
+E200340,Furosemide,Diuretic,500 mg,IV
+E200340,Piperacillin-tazobactam,Antibiotic,125 mg,IV
+E200341,Piperacillin-tazobactam,Antibiotic,1000 mg,IM
+E200341,Insulin Regular,Insulin,125 mg,SC
+E200341,Salbutamol,Bronchodilator,250 mg,IV
+E200342,Amoxicillin,Antibiotic,1000 mg,PO
+E200344,Amoxicillin,Antibiotic,500 mg,IV
+E200343,Amoxicillin,Antibiotic,125 mg,PO
+E200343,Enoxaparin,Anticoagulant,50 mg,SC
+E200343,Atorvastatin,Lipid-lowering,125 mg,
+E200343,Insulin Regular,Insulin,500 mg,IM
+E200346,Enoxaparin,Anticoagulant,,IV
+E200346,Piperacillin-tazobactam,Antibiotic,125 mg,SC
+E200346,Atorvastatin,Lipid-lowering,1000 mg,PO
+E200345,Insulin Regular,Insulin,100 mg,SC
+E200348,Furosemide,Diuretic,100 mg,IV
+E200347,Warfarin,Anticoagulant,1000 mg,SC
+E200349,Insulin Regular,Insulin,125 mg,SC
+E200349,Metformin,Antidiabetic,125 mg,IM
+E200349,Enoxaparin,Anticoagulant,250 mg,SC
+E200350,Enoxaparin,Anticoagulant,1000 mg,IV
+E200352,Insulin Regular,Insulin,500 mg,IV
+E200352,Salbutamol,Bronchodilator,1000 mg,IV
+E200352,Amoxicillin,Antibiotic,50 mg,IV
+E200351,Insulin Regular,Insulin,1000 mg,IM
+E200351,Morphine,Analgesic,,IV
+E200351,Warfarin,Anticoagulant,1000 mg,SC
+E200354,Furosemide,Diuretic,75 mg,IV
+E200354,Morphine,Analgesic,500 mg,IV
+E200354,Amoxicillin,Antibiotic,50 mg,PO
+E200353,Atorvastatin,Lipid-lowering,50 mg,SC
+E200353,Prednisone,Steroid,1000 mg,PO
+E200355,Enoxaparin,Anticoagulant,100 mg,IV
+E200355,Amoxicillin,Antibiotic,50 mg,IM
+E200355,Enoxaparin,Anticoagulant,1000 mg,IV
+E200355,Piperacillin-tazobactam,Antibiotic,75 mg,SC
+E200357,Metformin,Antidiabetic,1000 mg,SC
+E200357,Amoxicillin,Antibiotic,500 mg,IM
+E200357,Aspirin,Antiplatelet,1000 mg,PO
+E200358,Insulin Regular,Insulin,125 mg,SC
+E200358,Furosemide,Diuretic,125 mg,IM
+E200359,Metformin,Antidiabetic,250 mg,IV
+E200359,Amoxicillin,Antibiotic,100 mg,SC
+E200359,Aspirin,Antiplatelet,250 mg,IV
+E200359,Aspirin,Antiplatelet,250 mg,PO
+E200360,Furosemide,Diuretic,125 mg,PO
+E200360,Amoxicillin,Antibiotic,125 mg,IV
+E200360,Insulin Regular,Insulin,1000 mg,IV
+E200360,Metformin,Antidiabetic,500 mg,
+E200362,Ceftriaxone,Antibiotic,75 mg,PO
+E200362,Prednisone,Steroid,1000 mg,IM
+E200364,Warfarin,Anticoagulant,75 mg,IV
+E200364,Salbutamol,Bronchodilator,500 mg,IM
+E200364,Atorvastatin,Lipid-lowering,250 mg,SC
+E200363,Prednisone,Steroid,250 mg,SC
+E200363,Aspirin,Antiplatelet,75 mg,IM
+E200366,Morphine,Analgesic,75 mg,IV
+E200366,Amoxicillin,Antibiotic,125 mg,IM
+E200366,Salbutamol,Bronchodilator,100 mg,IM
+E200365,Salbutamol,Bronchodilator,250 mg,IM
+E200367,Salbutamol,Bronchodilator,250 mg,PO
+E200367,Piperacillin-tazobactam,Antibiotic,1000 mg,SC
+E200368,Metformin,Antidiabetic,75 mg,PO
+E200368,Aspirin,Antiplatelet,250 mg,PO
+E200370,Amoxicillin,Antibiotic,100 mg,PO
+E200369,Prednisone,Steroid,100 mg,
+E200369,Salbutamol,Bronchodilator,1000 mg,PO
+E200369,Atorvastatin,Lipid-lowering,,SC
+E200369,Prednisone,Steroid,500 mg,IM
+E200371,Atorvastatin,Lipid-lowering,125 mg,IM
+E200372,Omeprazole,Acid reducer,75 mg,PO
+E200372,Salbutamol,Bronchodilator,75 mg,PO
+E200372,Atorvastatin,Lipid-lowering,250 mg,IV
+E200374,Morphine,Analgesic,50 mg,PO
+E200373,Ceftriaxone,Antibiotic,75 mg,IV
+E200373,Ceftriaxone,Antibiotic,75 mg,PO
+E200373,Aspirin,Antiplatelet,100 mg,IV
+E200376,Metformin,Antidiabetic,100 mg,IV
+E200376,Metformin,Antidiabetic,,SC
+E200375,Warfarin,Anticoagulant,100 mg,IM
+E200375,Morphine,Analgesic,1000 mg,IV
+E200375,Amoxicillin,Antibiotic,1000 mg,IM
+E200377,Atorvastatin,Lipid-lowering,100 mg,SC
+E200377,Enoxaparin,Anticoagulant,75 mg,IM
+E200378,Atorvastatin,Lipid-lowering,500 mg,PO
+E200378,Furosemide,Diuretic,500 mg,PO
+E200379,Warfarin,Anticoagulant,500 mg,IV
+E200379,Omeprazole,Acid reducer,100 mg,IV
+E200381,Morphine,Analgesic,500 mg,IV
+E200381,Morphine,Analgesic,1000 mg,IM
+E200382,Warfarin,Anticoagulant,125 mg,IV
+E200382,Morphine,Analgesic,50 mg,IV
+E200383,Enoxaparin,Anticoagulant,1000 mg,SC
+E200383,Warfarin,Anticoagulant,,PO
+E200384,Furosemide,Diuretic,500 mg,IV
+E200384,Omeprazole,Acid reducer,250 mg,IM
+E200385,Salbutamol,Bronchodilator,50 mg,PO
+E200386,Cefepime,Antibiotic,250 mg,IV
+E200386,Salbutamol,Bronchodilator,75 mg,SC
+E200386,Amoxicillin,Antibiotic,500 mg,PO
+E200388,Prednisone,Steroid,500 mg,IM
+E200388,Morphine,Analgesic,500 mg,PO
+E200388,Omeprazole,Acid reducer,100 mg,IV
+E200388,Amoxicillin,Antibiotic,500 mg,PO
+E200387,Morphine,Analgesic,75 mg,IV
+E200387,Morphine,Analgesic,100 mg,SC
+E200387,Aspirin,Antiplatelet,500 mg,IV
+E200387,Morphine,Analgesic,50 mg,IM
+E200389,Insulin Regular,Insulin,75 mg,PO
+E200389,Atorvastatin,Lipid-lowering,125 mg,PO
+E200389,Warfarin,Anticoagulant,100 mg,IV
+E200392,Enoxaparin,Anticoagulant,50 mg,PO
+E200392,Ceftriaxone,Antibiotic,1000 mg,IM
+E200392,Enoxaparin,Anticoagulant,50 mg,IV
+E200391,Amoxicillin,Antibiotic,75 mg,IV
+E200391,Ceftriaxone,Antibiotic,100 mg,IV
+E200393,Atorvastatin,Lipid-lowering,500 mg,PO
+E200393,Metformin,Antidiabetic,75 mg,SC
+E200394,Enoxaparin,Anticoagulant,50 mg,PO
+E200394,Metformin,Antidiabetic,75 mg,IM
+E200395,Furosemide,Diuretic,250 mg,IM
+E200395,Atorvastatin,Lipid-lowering,250 mg,IM
+E200396,Metformin,Antidiabetic,1000 mg,IM
+E200396,Aspirin,Antiplatelet,50 mg,PO
+E200397,Omeprazole,Acid reducer,125 mg,SC
+E200397,Salbutamol,Bronchodilator,250 mg,IV
+E200397,Insulin Regular,Insulin,50 mg,PO
+E200397,Morphine,Analgesic,,PO
+E200398,Salbutamol,Bronchodilator,100 mg,IM
+E200398,Amoxicillin,Antibiotic,75 mg,IM
+E200398,Aspirin,Antiplatelet,75 mg,
+E200400,Enoxaparin,Anticoagulant,500 mg,IV
+E200400,Amoxicillin,Antibiotic,500 mg,IV
+E200400,Insulin Regular,Insulin,50 mg,SC
+E200399,Amoxicillin,Antibiotic,50 mg,SC
+E200401,Insulin Regular,Insulin,250 mg,PO
+E200402,Prednisone,Steroid,500 mg,PO
+E200402,Salbutamol,Bronchodilator,125 mg,SC
+E200404,Atorvastatin,Lipid-lowering,50 mg,IM
+E200404,Ceftriaxone,Antibiotic,50 mg,
+E200404,Enoxaparin,Anticoagulant,1000 mg,PO
+E200403,Cefepime,Antibiotic,500 mg,SC
+E200403,Amoxicillin,Antibiotic,500 mg,IM
+E200405,Warfarin,Anticoagulant,50 mg,IV
+E200405,Warfarin,Anticoagulant,125 mg,SC
+E200405,Ceftriaxone,Antibiotic,75 mg,IV
+E200405,Morphine,Analgesic,500 mg,IV
+E200406,Ceftriaxone,Antibiotic,1000 mg,SC
+E200406,Warfarin,Anticoagulant,1000 mg,IM
+E200406,Cefepime,Antibiotic,100 mg,IM
+E200406,Enoxaparin,Anticoagulant,500 mg,SC
+E200407,Omeprazole,Acid reducer,50 mg,
+E200407,Atorvastatin,Lipid-lowering,100 mg,PO
+E200407,Furosemide,Diuretic,75 mg,SC
+E200408,Enoxaparin,Anticoagulant,75 mg,SC
+E200408,Ceftriaxone,Antibiotic,100 mg,IM
+E200410,Metformin,Antidiabetic,125 mg,SC
+E200410,Cefepime,Antibiotic,125 mg,IV
+E200409,Amoxicillin,Antibiotic,500 mg,IV
+E200409,Prednisone,Steroid,,IM
+E200409,Metformin,Antidiabetic,250 mg,IV
+E200411,Atorvastatin,Lipid-lowering,,IM
+E200411,Aspirin,Antiplatelet,125 mg,IM
+E200411,Metformin,Antidiabetic,75 mg,PO
+E200411,Warfarin,Anticoagulant,125 mg,IV
+E200412,Amoxicillin,Antibiotic,125 mg,SC
+E200412,Morphine,Analgesic,1000 mg,PO
+E200413,Insulin Regular,Insulin,100 mg,IM
+E200413,Prednisone,Steroid,50 mg,
+E200414,Morphine,Analgesic,75 mg,PO
+E200416,Cefepime,Antibiotic,75 mg,SC
+E200416,Amoxicillin,Antibiotic,500 mg,PO
+E200415,Salbutamol,Bronchodilator,100 mg,SC
+E200415,Atorvastatin,Lipid-lowering,50 mg,IM
+E200415,Salbutamol,Bronchodilator,50 mg,PO
+E200417,Insulin Regular,Insulin,250 mg,PO
+E200417,Amoxicillin,Antibiotic,50 mg,IV
+E200417,Insulin Regular,Insulin,500 mg,
+E200417,Omeprazole,Acid reducer,75 mg,SC
+E200418,Amoxicillin,Antibiotic,,PO
+E200418,Furosemide,Diuretic,125 mg,PO
+E200420,Furosemide,Diuretic,50 mg,PO
+E200420,Salbutamol,Bronchodilator,250 mg,SC
+E200420,Salbutamol,Bronchodilator,1000 mg,SC
+E200420,Atorvastatin,Lipid-lowering,100 mg,IM
+E200419,Morphine,Analgesic,125 mg,IV
+E200419,Aspirin,Antiplatelet,100 mg,SC
+E200419,Cefepime,Antibiotic,1000 mg,IV
+E200419,Omeprazole,Acid reducer,75 mg,SC
+E200422,Insulin Regular,Insulin,50 mg,PO
+E200422,Piperacillin-tazobactam,Antibiotic,250 mg,SC
+E200421,Morphine,Analgesic,50 mg,SC
+E200421,Amoxicillin,Antibiotic,75 mg,SC
+E200421,Aspirin,Antiplatelet,,PO
+E200423,Atorvastatin,Lipid-lowering,1000 mg,SC
+E200424,Enoxaparin,Anticoagulant,250 mg,IV
+E200424,Ceftriaxone,Antibiotic,250 mg,SC
+E200426,Prednisone,Steroid,1000 mg,IM
+E200426,Prednisone,Steroid,125 mg,IM
+E200425,Morphine,Analgesic,75 mg,SC
+E200425,Morphine,Analgesic,50 mg,IV
+E200428,Aspirin,Antiplatelet,100 mg,SC
+E200428,Warfarin,Anticoagulant,100 mg,IV
+E200428,Ceftriaxone,Antibiotic,50 mg,SC
+E200428,Prednisone,Steroid,1000 mg,IM
+E200427,Amoxicillin,Antibiotic,50 mg,SC
+E200427,Morphine,Analgesic,100 mg,SC
+E200427,Aspirin,Antiplatelet,1000 mg,IV
+E200430,Warfarin,Anticoagulant,100 mg,IM
+E200430,Warfarin,Anticoagulant,75 mg,PO
+E200432,Metformin,Antidiabetic,500 mg,IV
+E200432,Salbutamol,Bronchodilator,125 mg,SC
+E200431,Furosemide,Diuretic,1000 mg,IM
+E200431,Ceftriaxone,Antibiotic,125 mg,IM
+E200431,Salbutamol,Bronchodilator,1000 mg,IM
+E200434,Cefepime,Antibiotic,100 mg,IM
+E200433,Amoxicillin,Antibiotic,250 mg,IM
+E200436,Metformin,Antidiabetic,75 mg,IM
+E200436,Morphine,Analgesic,500 mg,IV
+E200435,Omeprazole,Acid reducer,1000 mg,
+E200435,Ceftriaxone,Antibiotic,500 mg,IV
+E200439,Prednisone,Steroid,50 mg,IM
+E200438,Salbutamol,Bronchodilator,250 mg,SC
+E200437,Atorvastatin,Lipid-lowering,125 mg,IM
+E200442,Salbutamol,Bronchodilator,500 mg,PO
+E200442,Piperacillin-tazobactam,Antibiotic,250 mg,
+E200442,Omeprazole,Acid reducer,1000 mg,PO
+E200442,Piperacillin-tazobactam,Antibiotic,1000 mg,IM
+E200441,Piperacillin-tazobactam,Antibiotic,250 mg,IM
+E200441,Ceftriaxone,Antibiotic,100 mg,PO
+E200440,Atorvastatin,Lipid-lowering,100 mg,SC
+E200440,Prednisone,Steroid,,IM
+E200440,Metformin,Antidiabetic,500 mg,PO
+E200443,Piperacillin-tazobactam,Antibiotic,1000 mg,IM
+E200443,Omeprazole,Acid reducer,100 mg,IV
+E200444,Insulin Regular,Insulin,50 mg,SC
+E200444,Salbutamol,Bronchodilator,100 mg,PO
+E200444,Amoxicillin,Antibiotic,100 mg,IM
+E200445,Ceftriaxone,Antibiotic,1000 mg,IV
+E200445,Omeprazole,Acid reducer,,SC
+E200448,Prednisone,Steroid,125 mg,IM
+E200448,Warfarin,Anticoagulant,500 mg,SC
+E200448,Furosemide,Diuretic,100 mg,PO
+E200446,Aspirin,Antiplatelet,100 mg,SC
+E200446,Salbutamol,Bronchodilator,500 mg,IV
+E200446,Atorvastatin,Lipid-lowering,500 mg,PO
+E200447,Piperacillin-tazobactam,Antibiotic,125 mg,PO
+E200447,Amoxicillin,Antibiotic,100 mg,SC
+E200451,Piperacillin-tazobactam,Antibiotic,50 mg,PO
+E200451,Atorvastatin,Lipid-lowering,,PO
+E200450,Warfarin,Anticoagulant,250 mg,IM
+E200449,Omeprazole,Acid reducer,250 mg,IV
+E200453,Prednisone,Steroid,,PO
+E200452,Furosemide,Diuretic,75 mg,SC
+E200454,Prednisone,Steroid,,PO
+E200454,Aspirin,Antiplatelet,1000 mg,SC
+E200455,Ceftriaxone,Antibiotic,125 mg,IM
+E200455,Prednisone,Steroid,250 mg,PO
+E200456,Furosemide,Diuretic,100 mg,IV
+E200459,Salbutamol,Bronchodilator,75 mg,IV
+E200460,Omeprazole,Acid reducer,75 mg,IV
+E200460,Aspirin,Antiplatelet,250 mg,IV
+E200460,Enoxaparin,Anticoagulant,1000 mg,PO
+E200458,Furosemide,Diuretic,500 mg,IV
+E200458,Piperacillin-tazobactam,Antibiotic,1000 mg,IM
+E200463,Morphine,Analgesic,125 mg,IV
+E200463,Warfarin,Anticoagulant,1000 mg,SC
+E200463,Salbutamol,Bronchodilator,125 mg,PO
+E200463,Ceftriaxone,Antibiotic,75 mg,IV
+E200462,Salbutamol,Bronchodilator,100 mg,SC
+E200462,Warfarin,Anticoagulant,125 mg,IV
+E200462,Aspirin,Antiplatelet,1000 mg,IM
+E200461,Enoxaparin,Anticoagulant,100 mg,PO
+E200461,Amoxicillin,Antibiotic,75 mg,PO
+E200461,Furosemide,Diuretic,,PO
+E200461,Metformin,Antidiabetic,100 mg,IV
+E200466,Cefepime,Antibiotic,75 mg,SC
+E200466,Amoxicillin,Antibiotic,1000 mg,IM
+E200464,Salbutamol,Bronchodilator,1000 mg,IM
+E200464,Cefepime,Antibiotic,100 mg,IV
+E200465,Insulin Regular,Insulin,50 mg,IV
+E200465,Salbutamol,Bronchodilator,500 mg,SC
+E200465,Atorvastatin,Lipid-lowering,1000 mg,PO
+E200468,Aspirin,Antiplatelet,250 mg,PO
+E200469,Ceftriaxone,Antibiotic,75 mg,PO
+E200469,Morphine,Analgesic,250 mg,PO
+E200469,Warfarin,Anticoagulant,125 mg,SC
+E200467,Enoxaparin,Anticoagulant,1000 mg,IM
+E200467,Insulin Regular,Insulin,100 mg,IV
+E200472,Metformin,Antidiabetic,75 mg,PO
+E200471,Amoxicillin,Antibiotic,75 mg,PO
+E200470,Furosemide,Diuretic,250 mg,PO

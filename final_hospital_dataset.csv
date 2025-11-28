@@ -1,0 +1,473 @@
+patient_id,encounter_id,admission_date,discharge_date,department,primary_diagnosis_code,age,gender,insurance_type,readmitted_30d,severity_level,admission_source,LOS,diagnosis_code,diagnosis_description,diagnosis_category,missing_progress_note,missing_discharge_summary,discharge_summary_delay_hours,coding_issue_flag,med_count
+P10000,E200001,2025-02-23,2025-03-04 00:00:00,Pulmonology,J45,10,F,Medicare,No,3,Clinic,9.0,J45,Asthma,Pulmonology,0,0,18,0,0.0
+P10001,E200002,2025-06-29,0,General Medicine,I21,13,M,Private,No,1,ER,0.0,I21,Acute myocardial infarction,Cardiology,0,0,1,0,3.0
+P10002,E200003,2024-12-13,2024-12-16 00:00:00,Surgery,I10,84,M,Medicare,No,1,ER,3.0,I10,Essential (primary) hypertension,Cardiology,0,0,23,0,2.0
+P10003,E200004,2025-01-16,2025-01-19 00:00:00,Neurology,C34,76,M,Private,No,2,Clinic,3.0,C34,Malignant neoplasm of bronchus and lung,Oncology,0,0,31,0,2.0
+P10004,E200005,2025-09-29,2025-10-16 00:00:00,Surgery,N39,100,F,Self-pay,No,4,Clinic,17.0,N39,"Urinary tract infection, site not specified",Urology,0,1,33,0,4.0
+P10005,E200006,2025-08-25,2025-08-29 00:00:00,Orthopedics,E11,78,F,Private,No,2,ER,4.0,E11,Type 2 diabetes mellitus,Endocrinology,0,0,23,0,3.0
+P10006,E200007,2024-08-16,2024-08-20 00:00:00,Neurology,E11,21,F,Private,No,2,ER,4.0,E11,Type 2 diabetes mellitus,Endocrinology,0,0,27,0,2.0
+P10007,E200008,2025-10-13,2025-10-25 00:00:00,Cardiology,J18,58,M,Private,No,2,ER,12.0,J18,"Pneumonia, unspecified organism",Pulmonology,0,0,28,0,2.0
+P10008,E200009,2025-10-22,2025-10-28 00:00:00,Orthopedics,C34,33,M,Medicare,No,3,ER,6.0,C34,Malignant neoplasm of bronchus and lung,Oncology,0,0,21,0,3.0
+P10009,E200010,2025-04-12,2025-04-14 00:00:00,ED,I2,51,M,Medicaid,No,1,Clinic,2.0,0,0,0,0,0,8,0,3.0
+P10010,E200011,2024-12-31,2025-01-01 00:00:00,Orthopedics,J45,100,F,Private,Yes,1,ER,1.0,J45,Asthma,Pulmonology,0,0,13,0,2.0
+P10011,E200012,2025-05-10,2025-05-12 00:00:00,Neurology,C34,12,M,Medicaid,No,1,ER,2.0,C34,Malignant neoplasm of bronchus and lung,Oncology,0,0,45,0,2.0
+P10012,E200013,2024-08-05,2024-08-10 00:00:00,General Medicine,I6,58,M,Private,No,1,Clinic,5.0,0,0,0,0,0,29,0,1.0
+P10013,E200014,2024-06-02,2024-06-04 00:00:00,ED,R07,0,F,Medicaid,No,1,Clinic,2.0,R07,Chest pain,Emergency,0,0,44,0,3.0
+P10014,E200015,2025-07-15,2025-07-19 00:00:00,ED,I21,62,F,Private,Yes,2,ER,4.0,I21,Acute myocardial infarction,Cardiology,0,0,0,0,1.0
+P10015,E200016,2024-10-31,2024-11-03 00:00:00,Cardiology,G40,24,F,Private,No,1,Clinic,3.0,G40,Epilepsy and recurrent seizures,Neurology,0,0,25,0,2.0
+P10016,E200017,2025-04-28,2025-04-30 00:00:00,Cardiology,F32,76,F,Medicare,No,2,ER,2.0,F32,"Major depressive disorder, single episode",Psychiatry,0,0,12,0,2.0
+P10017,E200018,2024-06-04,2024-06-15 00:00:00,General Medicine,I10,40,M,Self-pay,No,3,Clinic,11.0,I10,Essential (primary) hypertension,Cardiology,0,0,11,1,1.0
+P10018,E200019,2024-06-19,2024-06-20 00:00:00,Surgery,I10,79,F,Medicaid,No,1,ER,1.0,I10,Essential (primary) hypertension,Cardiology,1,1,96,0,4.0
+P10019,E200020,2025-02-21,2025-03-03 00:00:00,Neurology,I2,93,F,Medicare,No,2,Clinic,10.0,0,0,0,0,0,14,0,3.0
+P10020,E200021,2025-03-25,2025-03-26 00:00:00,Orthopedics,E1,37,M,Self-pay,No,1,Transfer,1.0,0,0,0,0,0,8,0,2.0
+P10021,E200022,2025-08-24,2025-08-27 00:00:00,Neurology,E11,70,F,Private,No,2,ER,3.0,E11,Type 2 diabetes mellitus,Endocrinology,1,0,36,0,1.0
+P10022,E200023,2025-09-10,2025-09-15 00:00:00,Orthopedics,R07,36,F,Self-pay,No,1,Clinic,5.0,R07,Chest pain,Emergency,0,1,206,0,3.0
+P10023,E200024,2024-06-25,2024-06-26 00:00:00,Orthopedics,G40,79,F,Medicare,No,1,ER,1.0,G40,Epilepsy and recurrent seizures,Neurology,0,0,27,0,3.0
+P10024,E200025,2025-01-25,2025-01-30 00:00:00,Pulmonology,I1,98,F,Medicaid,No,2,ER,5.0,0,0,0,0,0,39,0,2.0
+P10025,E200026,2025-10-18,2025-10-19 00:00:00,ED,R07,12,M,Medicaid,No,1,Clinic,1.0,R07,Chest pain,Emergency,0,0,0,0,1.0
+P10026,E200027,2025-10-29,2025-10-30 00:00:00,General Medicine,E1,49,F,Medicaid,No,1,ER,1.0,0,0,0,0,0,52,0,4.0
+P10027,E200028,2024-06-28,2024-07-05 00:00:00,Cardiology,C34,55,F,Medicare,No,2,Clinic,7.0,C34,Malignant neoplasm of bronchus and lung,Oncology,0,0,24,0,1.0
+P10028,E200029,2024-08-01,2024-08-03 00:00:00,Neurology,J45,82,M,Medicare,No,1,ER,2.0,J45,Asthma,Pulmonology,0,1,0,0,2.0
+P10029,E200030,2025-04-05,2025-04-06 00:00:00,Cardiology,C34,90,F,Medicaid,No,1,Clinic,1.0,C34,Malignant neoplasm of bronchus and lung,Oncology,0,0,10,0,3.0
+P10030,E200031,2025-03-06,2025-03-07 00:00:00,Pulmonology,R07,50,M,Private,No,1,ER,1.0,R07,Chest pain,Emergency,1,1,24,0,2.0
+P10031,E200032,2024-11-26,2024-11-28 00:00:00,General Medicine,F32,31,F,Self-pay,No,1,Clinic,2.0,F32,"Major depressive disorder, single episode",Psychiatry,0,0,4,0,2.0
+P10032,E200033,2025-05-02,0,Orthopedics,E11,16,F,Medicaid,No,2,ER,0.0,E11,Type 2 diabetes mellitus,Endocrinology,0,0,18,0,1.0
+P10033,E200034,2024-07-25,0,ED,M54,51,M,Private,No,3,ER,0.0,M54,Dorsalgia (back pain),Orthopedics,0,0,28,0,2.0
+P10034,E200035,2025-03-16,2025-03-20 00:00:00,Orthopedics,G40,30,M,Medicaid,No,1,ER,4.0,G40,Epilepsy and recurrent seizures,Neurology,0,0,46,0,1.0
+P10035,E200036,2024-12-05,0,Cardiology,N39,57,M,Medicare,No,1,Clinic,0.0,N39,"Urinary tract infection, site not specified",Urology,0,0,2,0,2.0
+P10036,E200037,2024-12-12,2024-12-17 00:00:00,Neurology,S72,49,F,Medicaid,No,2,Transfer,5.0,S72,Fracture of femur,Orthopedics,0,0,4,0,1.0
+P10037,E200038,2025-06-16,2025-06-25 00:00:00,Oncology,E7,53,F,Medicaid,No,2,Clinic,9.0,0,0,0,0,0,1,0,3.0
+P10038,E200039,2025-07-02,0,Neurology,I10,50,M,Private,No,2,ER,0.0,I10,Essential (primary) hypertension,Cardiology,0,0,88,0,1.0
+P10039,E200040,2025-08-29,0,Orthopedics,S72,19,F,Medicare,No,3,ER,0.0,S72,Fracture of femur,Orthopedics,1,0,10,0,2.0
+P10040,E200041,2025-01-22,2025-01-28 00:00:00,Oncology,S7,82,F,Self-pay,No,2,ER,6.0,0,0,0,0,0,47,0,1.0
+P10041,E200042,2025-07-04,2025-07-05 00:00:00,Orthopedics,J18,19,F,Private,No,1,Clinic,1.0,J18,"Pneumonia, unspecified organism",Pulmonology,0,1,29,0,3.0
+P10042,E200043,2025-06-19,2025-06-24 00:00:00,Cardiology,C34,28,F,Medicare,No,2,ER,5.0,C34,Malignant neoplasm of bronchus and lung,Oncology,0,0,147,0,2.0
+P10043,E200044,2025-03-26,2025-03-31 00:00:00,Oncology,F32,91,M,Private,No,2,Clinic,5.0,F32,"Major depressive disorder, single episode",Psychiatry,0,1,33,0,4.0
+P10044,E200045,2025-02-18,2025-02-25 00:00:00,ED,K21,93,F,Medicare,No,3,ER,7.0,K21,Gastro-esophageal reflux disease,Gastroenterology,0,1,27,0,3.0
+P10045,E200046,2025-02-02,2025-02-07 00:00:00,General Medicine,N39,76,M,Medicare,No,1,Clinic,5.0,N39,"Urinary tract infection, site not specified",Urology,0,0,4,0,2.0
+P10046,E200047,2025-04-10,2025-04-14 00:00:00,ED,J18,16,F,Medicare,No,2,Transfer,4.0,J18,"Pneumonia, unspecified organism",Pulmonology,0,1,27,0,2.0
+P10047,E200048,2025-03-04,2025-03-10 00:00:00,Oncology,E11,100,M,Private,No,2,Clinic,6.0,E11,Type 2 diabetes mellitus,Endocrinology,0,0,14,0,4.0
+P10048,E200049,2025-10-17,2025-10-19 00:00:00,Orthopedics,S72,20,M,Medicare,No,1,Clinic,2.0,S72,Fracture of femur,Orthopedics,0,0,4,0,2.0
+P10049,E200050,2024-09-20,2024-09-24 00:00:00,Oncology,K21,70,F,Private,No,1,ER,4.0,K21,Gastro-esophageal reflux disease,Gastroenterology,0,0,12,0,1.0
+P10050,E200051,2025-04-27,2025-05-14 00:00:00,ED,I21,62,M,Private,No,4,ER,17.0,I21,Acute myocardial infarction,Cardiology,0,0,5,0,0.0
+P10051,E200052,2025-04-28,2025-04-30 00:00:00,Pulmonology,I21,6,M,Private,No,1,Transfer,2.0,I21,Acute myocardial infarction,Cardiology,0,0,25,0,2.0
+P10052,E200053,2025-03-30,2025-03-31 00:00:00,General Medicine,F32,6,M,Private,No,1,Clinic,1.0,F32,"Major depressive disorder, single episode",Psychiatry,0,1,1,0,3.0
+P10053,E200054,2024-08-23,2024-08-27 00:00:00,Cardiology,I21,57,M,Medicare,No,2,ER,4.0,I21,Acute myocardial infarction,Cardiology,0,0,22,0,1.0
+P10054,E200055,2024-08-30,2024-09-01 00:00:00,Pulmonology,K21,28,M,Medicare,No,1,ER,2.0,K21,Gastro-esophageal reflux disease,Gastroenterology,0,1,134,0,4.0
+P10055,E200056,2025-11-10,2025-11-19 00:00:00,Surgery,E78,57,M,Medicaid,No,3,ER,9.0,E78,Disorders of lipoprotein metabolism (hyperlipidemia),Cardiology,0,0,0,0,3.0
+P10056,E200057,2024-06-14,2024-06-15 00:00:00,Orthopedics,K21,48,F,Private,No,1,ER,1.0,K21,Gastro-esophageal reflux disease,Gastroenterology,0,0,35,0,1.0
+P10057,E200058,2025-03-14,2025-03-29 00:00:00,ED,G40,9,F,Medicaid,No,3,ER,15.0,G40,Epilepsy and recurrent seizures,Neurology,0,0,42,0,3.0
+P10058,E200059,2024-07-27,0,General Medicine,N3,47,F,Medicaid,No,1,Clinic,0.0,0,0,0,0,0,120,0,0.0
+P10059,E200060,2025-07-17,2025-07-19 00:00:00,ED,S72,25,F,Private,No,1,ER,2.0,S72,Fracture of femur,Orthopedics,0,0,6,0,3.0
+P10060,E200061,2025-07-15,0,ED,I10,50,F,Self-pay,No,2,ER,0.0,I10,Essential (primary) hypertension,Cardiology,0,0,7,0,2.0
+P10061,E200062,2025-08-15,2025-08-17 00:00:00,Orthopedics,C34,12,F,Self-pay,No,1,Transfer,2.0,C34,Malignant neoplasm of bronchus and lung,Oncology,0,0,8,1,2.0
+P10062,E200063,2025-08-13,2025-08-17 00:00:00,ED,M54,31,M,Private,No,2,ER,4.0,M54,Dorsalgia (back pain),Orthopedics,0,0,11,0,2.0
+P10063,E200064,2024-08-24,2024-08-26 00:00:00,Oncology,R0,14,F,Private,No,2,ER,2.0,0,0,0,0,0,43,0,2.0
+P10064,E200065,2024-08-08,0,ED,I21,35,F,Self-pay,No,1,ER,0.0,I21,Acute myocardial infarction,Cardiology,0,0,14,0,2.0
+P10065,E200066,2024-10-23,2024-10-26 00:00:00,Surgery,I63,77,M,Medicaid,No,2,Clinic,3.0,I63,Cerebral infarction (stroke),Neurology,1,0,29,0,1.0
+P10066,E200067,2024-09-12,2024-09-18 00:00:00,Cardiology,F32,0,F,Private,No,3,Clinic,6.0,F32,"Major depressive disorder, single episode",Psychiatry,0,0,4,1,2.0
+P10067,E200068,2025-04-04,2025-04-10 00:00:00,General Medicine,I21,59,M,Medicaid,No,2,ER,6.0,I21,Acute myocardial infarction,Cardiology,0,0,54,0,4.0
+P10068,E200069,2025-11-14,2025-11-15 00:00:00,Surgery,R0,60,F,Medicaid,No,1,ER,1.0,0,0,0,0,0,12,0,1.0
+P10069,E200070,2025-04-08,2025-04-10 00:00:00,Neurology,N39,17,M,Medicaid,No,1,Clinic,2.0,N39,"Urinary tract infection, site not specified",Urology,0,0,26,0,2.0
+P10070,E200071,2024-06-20,0,Oncology,E78,63,M,Medicaid,No,1,Transfer,0.0,E78,Disorders of lipoprotein metabolism (hyperlipidemia),Cardiology,0,0,45,0,4.0
+P10071,E200072,2024-08-16,2024-08-17 00:00:00,General Medicine,J45,95,F,Medicaid,No,1,Transfer,1.0,J45,Asthma,Pulmonology,0,0,11,0,3.0
+P10072,E200073,2025-07-26,2025-07-30 00:00:00,Surgery,G40,33,F,Private,No,1,ER,4.0,G40,Epilepsy and recurrent seizures,Neurology,0,0,1,0,1.0
+P10073,E200074,2025-02-22,2025-03-01 00:00:00,General Medicine,I63,6,M,Private,No,3,ER,7.0,I63,Cerebral infarction (stroke),Neurology,0,0,34,0,4.0
+P10074,E200075,2024-10-04,0,Cardiology,E78,38,M,Medicare,No,3,Clinic,0.0,E78,Disorders of lipoprotein metabolism (hyperlipidemia),Cardiology,0,0,8,0,4.0
+P10075,E200076,2025-04-03,2025-04-09 00:00:00,General Medicine,K21,71,M,Self-pay,No,2,Transfer,6.0,K21,Gastro-esophageal reflux disease,Gastroenterology,0,0,27,0,2.0
+P10076,E200077,2024-08-13,2024-08-14 00:00:00,Oncology,G40,34,M,Private,No,1,ER,1.0,G40,Epilepsy and recurrent seizures,Neurology,0,0,26,0,1.0
+P10077,E200078,2024-12-04,0,ED,E11,25,F,Medicare,No,2,Clinic,0.0,E11,Type 2 diabetes mellitus,Endocrinology,0,0,23,0,2.0
+P10078,E200079,2025-08-10,2025-08-13 00:00:00,Cardiology,C34,71,F,Medicare,No,1,ER,3.0,C34,Malignant neoplasm of bronchus and lung,Oncology,0,0,10,0,3.0
+P10079,E200080,2025-04-02,2025-04-04 00:00:00,Pulmonology,I21,46,F,Medicare,No,2,Clinic,2.0,I21,Acute myocardial infarction,Cardiology,0,0,25,0,3.0
+P10080,E200081,2025-09-13,2025-09-22 00:00:00,ED,I10,34,M,Medicaid,No,3,ER,9.0,I10,Essential (primary) hypertension,Cardiology,0,0,6,0,4.0
+P10081,E200082,2025-02-22,2025-02-26 00:00:00,Cardiology,J45,85,M,Medicaid,No,2,ER,4.0,J45,Asthma,Pulmonology,1,0,15,0,2.0
+P10082,E200083,2025-06-16,2025-06-18 00:00:00,Cardiology,E11,82,F,Medicare,No,1,ER,2.0,E11,Type 2 diabetes mellitus,Endocrinology,0,0,24,0,2.0
+P10083,E200084,2024-09-16,2024-09-17 00:00:00,Oncology,S72,95,F,Medicare,No,1,ER,1.0,S72,Fracture of femur,Orthopedics,0,0,3,0,1.0
+P10084,E200085,2024-08-03,2024-08-10 00:00:00,General Medicine,N39,21,F,Private,No,2,ER,7.0,N39,"Urinary tract infection, site not specified",Urology,0,0,7,0,2.0
+P10085,E200086,2025-03-13,2025-03-18 00:00:00,Orthopedics,I21,38,F,Medicare,No,2,Clinic,5.0,I21,Acute myocardial infarction,Cardiology,0,0,4,1,2.0
+P10086,E200087,2025-09-09,0,Pulmonology,E78,82,M,Private,No,3,Clinic,0.0,E78,Disorders of lipoprotein metabolism (hyperlipidemia),Cardiology,0,0,67,0,2.0
+P10087,E200088,2025-05-24,2025-05-25 00:00:00,General Medicine,E11,39,M,Private,No,1,Transfer,1.0,E11,Type 2 diabetes mellitus,Endocrinology,0,0,19,0,1.0
+P10088,E200089,2024-10-10,2024-10-11 00:00:00,Surgery,E78,11,M,Medicare,No,1,ER,1.0,E78,Disorders of lipoprotein metabolism (hyperlipidemia),Cardiology,0,0,31,0,1.0
+P10089,E200090,2025-05-01,0,Pulmonology,I21,93,F,Private,No,1,ER,0.0,I21,Acute myocardial infarction,Cardiology,0,1,176,0,3.0
+P10090,E200091,2025-05-10,2025-05-11 00:00:00,Pulmonology,F32,57,F,Private,No,1,Transfer,1.0,F32,"Major depressive disorder, single episode",Psychiatry,0,0,9,0,1.0
+P10091,E200092,2024-09-22,2024-10-05 00:00:00,ED,N39,24,M,Medicare,No,3,Clinic,13.0,N39,"Urinary tract infection, site not specified",Urology,0,0,12,0,2.0
+P10092,E200093,2025-01-21,2025-01-25 00:00:00,Oncology,M54,95,M,Private,No,2,Transfer,4.0,M54,Dorsalgia (back pain),Orthopedics,0,1,18,0,3.0
+P10093,E200094,2024-12-03,2024-12-07 00:00:00,ED,J45,90,M,Private,No,1,Transfer,4.0,J45,Asthma,Pulmonology,0,0,7,0,3.0
+P10094,E200095,2025-08-02,2025-08-03 00:00:00,Oncology,E78,52,M,Medicaid,No,1,ER,1.0,E78,Disorders of lipoprotein metabolism (hyperlipidemia),Cardiology,0,1,11,0,1.0
+P10095,E200096,2025-03-24,2025-03-27 00:00:00,Surgery,K21,38,F,Medicare,No,2,ER,3.0,K21,Gastro-esophageal reflux disease,Gastroenterology,0,0,7,0,0.0
+P10096,E200097,2025-09-04,2025-09-18 00:00:00,Cardiology,J18,18,M,Private,No,3,ER,14.0,J18,"Pneumonia, unspecified organism",Pulmonology,0,0,218,0,3.0
+P10097,E200098,2025-10-09,2025-10-16 00:00:00,Orthopedics,K21,22,F,Medicaid,No,2,Clinic,7.0,K21,Gastro-esophageal reflux disease,Gastroenterology,0,0,5,0,3.0
+P10098,E200099,2024-07-25,2024-08-01 00:00:00,Cardiology,K21,76,F,Medicare,No,2,ER,7.0,K21,Gastro-esophageal reflux disease,Gastroenterology,0,0,6,0,1.0
+P10099,E200100,2024-06-20,2024-07-01 00:00:00,Neurology,E11,78,F,Medicaid,No,3,Clinic,11.0,E11,Type 2 diabetes mellitus,Endocrinology,0,0,17,0,3.0
+P10100,E200101,2024-06-16,2024-06-21 00:00:00,Pulmonology,J45,72,F,Medicare,No,2,Clinic,5.0,J45,Asthma,Pulmonology,0,0,11,0,3.0
+P10101,E200102,2024-11-05,2024-11-07 00:00:00,Orthopedics,N39,87,M,Self-pay,No,1,ER,2.0,N39,"Urinary tract infection, site not specified",Urology,0,0,134,0,4.0
+P10102,E200103,2024-10-23,2024-11-03 00:00:00,Orthopedics,C34,14,F,Medicaid,No,3,Clinic,11.0,C34,Malignant neoplasm of bronchus and lung,Oncology,0,1,28,0,0.0
+P10103,E200104,2025-04-18,2025-04-19 00:00:00,Cardiology,I63,49,F,Medicaid,Yes,1,Clinic,1.0,I63,Cerebral infarction (stroke),Neurology,0,0,13,0,2.0
+P10104,E200105,2025-02-16,2025-02-23 00:00:00,Oncology,J4,36,M,Medicaid,No,2,Transfer,7.0,0,0,0,0,0,49,0,2.0
+P10105,E200106,2025-05-15,0,ED,J45,26,F,Private,No,1,Clinic,0.0,J45,Asthma,Pulmonology,1,0,6,0,1.0
+P10106,E200107,2024-08-19,2024-08-20 00:00:00,Neurology,I21,11,F,Private,No,1,ER,1.0,I21,Acute myocardial infarction,Cardiology,0,0,19,0,2.0
+P10107,E200108,2024-05-21,2024-05-22 00:00:00,Pulmonology,G40,75,M,Medicaid,No,1,ER,1.0,G40,Epilepsy and recurrent seizures,Neurology,0,0,25,0,1.0
+P10108,E200109,2025-02-14,2025-02-15 00:00:00,General Medicine,J45,48,F,Medicare,No,1,Clinic,1.0,J45,Asthma,Pulmonology,0,0,17,0,1.0
+P10109,E200110,2025-02-11,2025-02-15 00:00:00,Neurology,J18,41,F,Medicaid,No,1,ER,4.0,J18,"Pneumonia, unspecified organism",Pulmonology,0,0,25,0,1.0
+P10110,E200111,2024-08-14,2024-08-15 00:00:00,Pulmonology,R07,37,F,Private,No,1,ER,1.0,R07,Chest pain,Emergency,0,0,9,0,2.0
+P10111,E200112,2024-06-26,2024-06-30 00:00:00,Pulmonology,C3,59,F,Medicare,No,2,ER,4.0,0,0,0,0,0,4,0,2.0
+P10112,E200113,2024-07-16,2024-07-26 00:00:00,General Medicine,E11,61,M,Private,No,3,ER,10.0,E11,Type 2 diabetes mellitus,Endocrinology,0,0,222,0,3.0
+P10113,E200114,2025-10-18,2025-11-01 00:00:00,Orthopedics,J18,63,M,Medicare,Yes,3,Transfer,14.0,J18,"Pneumonia, unspecified organism",Pulmonology,0,0,6,0,3.0
+P10114,E200115,2025-06-01,2025-06-09 00:00:00,ED,M54,17,M,Medicare,No,2,Transfer,8.0,M54,Dorsalgia (back pain),Orthopedics,1,0,30,0,2.0
+P10115,E200116,2025-08-27,0,Pulmonology,F32,61,M,Medicare,Yes,1,ER,0.0,F32,"Major depressive disorder, single episode",Psychiatry,0,0,17,0,0.0
+P10116,E200117,2024-11-07,2024-11-14 00:00:00,Surgery,N3,94,M,Medicare,No,2,ER,7.0,0,0,0,0,1,9,0,3.0
+P10117,E200118,2025-01-08,2025-01-09 00:00:00,General Medicine,I63,68,F,Medicare,No,1,Clinic,1.0,I63,Cerebral infarction (stroke),Neurology,0,0,4,0,2.0
+P10118,E200119,2025-05-23,2025-06-02 00:00:00,Neurology,J45,31,M,Private,No,3,Clinic,10.0,J45,Asthma,Pulmonology,0,0,8,0,1.0
+P10119,E200120,2024-08-23,2024-08-30 00:00:00,General Medicine,C34,86,M,Medicaid,Yes,2,Clinic,7.0,C34,Malignant neoplasm of bronchus and lung,Oncology,0,0,53,0,1.0
+P10120,E200121,2025-01-02,2025-01-04 00:00:00,General Medicine,R07,1,M,Private,No,1,Clinic,2.0,R07,Chest pain,Emergency,1,0,7,0,2.0
+P10121,E200122,2025-08-09,2025-08-13 00:00:00,Neurology,E11,10,M,Medicare,No,2,ER,4.0,E11,Type 2 diabetes mellitus,Endocrinology,0,0,25,0,1.0
+P10122,E200123,2024-06-26,2024-07-03 00:00:00,Oncology,J45,68,F,Medicare,No,2,Clinic,7.0,J45,Asthma,Pulmonology,1,1,14,0,2.0
+P10123,E200124,2025-02-18,2025-02-25 00:00:00,Oncology,K21,8,F,Medicaid,No,2,ER,7.0,K21,Gastro-esophageal reflux disease,Gastroenterology,0,0,15,0,2.0
+P10124,E200125,2025-09-08,2025-09-14 00:00:00,General Medicine,E78,44,F,Medicare,No,2,ER,6.0,E78,Disorders of lipoprotein metabolism (hyperlipidemia),Cardiology,0,0,14,0,2.0
+P10125,E200126,2024-09-29,2024-09-30 00:00:00,Neurology,S72,52,F,Medicaid,No,1,Clinic,1.0,S72,Fracture of femur,Orthopedics,0,0,10,0,1.0
+P10126,E200127,2024-10-26,2024-10-28 00:00:00,ED,S72,1,M,Self-pay,No,1,ER,2.0,S72,Fracture of femur,Orthopedics,0,0,2,0,3.0
+P10127,E200128,2024-09-18,0,Oncology,I10,14,M,Private,No,1,ER,0.0,I10,Essential (primary) hypertension,Cardiology,0,0,14,0,2.0
+P10128,E200129,2024-07-25,2024-08-03 00:00:00,Cardiology,E11,14,F,Private,No,3,ER,9.0,E11,Type 2 diabetes mellitus,Endocrinology,0,0,45,0,1.0
+P10129,E200130,2025-09-15,2025-10-03 00:00:00,Oncology,E78,0,F,Private,No,4,ER,18.0,E78,Disorders of lipoprotein metabolism (hyperlipidemia),Cardiology,0,1,26,0,4.0
+P10130,E200131,2024-12-03,2024-12-04 00:00:00,Orthopedics,I10,54,F,Private,No,1,ER,1.0,I10,Essential (primary) hypertension,Cardiology,0,0,7,0,2.0
+P10131,E200132,2025-02-15,2025-02-28 00:00:00,Pulmonology,S72,14,F,Medicare,No,4,Clinic,13.0,S72,Fracture of femur,Orthopedics,0,0,28,0,2.0
+P10132,E200133,2025-08-10,2025-08-13 00:00:00,Neurology,K21,17,F,Self-pay,No,1,ER,3.0,K21,Gastro-esophageal reflux disease,Gastroenterology,0,0,5,0,2.0
+P10133,E200134,2025-07-05,2025-07-07 00:00:00,Cardiology,F32,90,F,Private,Yes,1,Transfer,2.0,F32,"Major depressive disorder, single episode",Psychiatry,0,0,1,0,3.0
+P10134,E200135,2024-06-11,2024-06-21 00:00:00,Oncology,N39,41,M,Private,No,3,ER,10.0,N39,"Urinary tract infection, site not specified",Urology,0,0,0,0,3.0
+P10135,E200136,2025-04-20,2025-04-24 00:00:00,Oncology,I21,65,F,Private,No,1,Clinic,4.0,I21,Acute myocardial infarction,Cardiology,0,0,25,0,1.0
+P10136,E200137,2024-11-22,2024-11-24 00:00:00,Surgery,E11,16,F,Medicaid,No,2,Clinic,2.0,E11,Type 2 diabetes mellitus,Endocrinology,0,0,10,0,0.0
+P10137,E200138,2025-02-08,2025-02-13 00:00:00,General Medicine,I63,43,M,Medicare,No,2,ER,5.0,I63,Cerebral infarction (stroke),Neurology,0,0,43,0,2.0
+P10138,E200139,2025-02-09,2025-03-01 00:00:00,General Medicine,G4,100,F,Private,No,4,ER,20.0,0,0,0,0,0,7,0,2.0
+P10139,E200140,2025-07-04,2025-07-11 00:00:00,Neurology,I63,0,M,Self-pay,No,2,ER,7.0,I63,Cerebral infarction (stroke),Neurology,0,0,30,0,0.0
+P10140,E200141,2025-05-18,2025-05-19 00:00:00,Cardiology,C34,71,M,Medicaid,No,2,Clinic,1.0,C34,Malignant neoplasm of bronchus and lung,Oncology,0,0,19,0,1.0
+P10141,E200142,2024-11-29,2024-11-30 00:00:00,Orthopedics,K21,66,F,Private,No,1,Clinic,1.0,K21,Gastro-esophageal reflux disease,Gastroenterology,0,0,19,0,2.0
+P10142,E200143,2024-08-28,2024-09-13 00:00:00,ED,E11,24,F,Medicare,No,3,ER,16.0,E11,Type 2 diabetes mellitus,Endocrinology,0,0,14,0,4.0
+P10143,E200144,2024-06-07,2024-06-09 00:00:00,Cardiology,J45,39,F,Medicaid,No,1,ER,2.0,J45,Asthma,Pulmonology,0,0,24,0,2.0
+P10144,E200145,2024-08-23,2024-08-28 00:00:00,Pulmonology,M54,0,F,Private,No,2,ER,5.0,M54,Dorsalgia (back pain),Orthopedics,0,0,20,1,3.0
+P10145,E200146,2025-02-05,2025-02-06 00:00:00,Oncology,F32,99,F,Private,No,1,ER,1.0,F32,"Major depressive disorder, single episode",Psychiatry,0,0,17,0,2.0
+P10146,E200147,2025-06-21,2025-06-27 00:00:00,Pulmonology,I63,42,M,Private,No,2,ER,6.0,I63,Cerebral infarction (stroke),Neurology,0,0,30,0,2.0
+P10147,E200148,2025-07-04,0,Orthopedics,I63,84,F,Private,No,1,Clinic,0.0,I63,Cerebral infarction (stroke),Neurology,0,0,6,0,1.0
+P10148,E200149,2025-05-31,2025-06-06 00:00:00,Orthopedics,J45,0,F,Medicaid,No,1,Clinic,6.0,J45,Asthma,Pulmonology,0,0,58,0,1.0
+P10149,E200150,2024-12-02,2024-12-05 00:00:00,ED,M54,56,F,Self-pay,No,2,ER,3.0,M54,Dorsalgia (back pain),Orthopedics,0,0,7,0,3.0
+P10150,E200151,2024-06-12,2024-06-17 00:00:00,Orthopedics,J18,50,M,Private,No,1,Clinic,5.0,J18,"Pneumonia, unspecified organism",Pulmonology,0,0,19,0,1.0
+P10151,E200152,2025-06-26,2025-06-29 00:00:00,Neurology,N39,60,F,Private,No,2,ER,3.0,N39,"Urinary tract infection, site not specified",Urology,1,0,35,0,2.0
+P10152,E200153,2025-10-09,2025-10-12 00:00:00,Pulmonology,J18,1,F,Private,No,1,ER,3.0,J18,"Pneumonia, unspecified organism",Pulmonology,0,0,27,0,4.0
+P10153,E200154,2025-05-24,2025-05-26 00:00:00,Oncology,E11,89,F,Private,No,1,Clinic,2.0,E11,Type 2 diabetes mellitus,Endocrinology,0,0,5,0,3.0
+P10154,E200155,2024-08-14,2024-08-16 00:00:00,Cardiology,C34,37,M,Medicaid,No,2,ER,2.0,C34,Malignant neoplasm of bronchus and lung,Oncology,0,0,15,0,2.0
+P10155,E200156,2025-10-20,2025-10-28 00:00:00,Surgery,R07,86,F,Private,No,2,ER,8.0,R07,Chest pain,Emergency,0,0,16,1,1.0
+P10156,E200157,2025-04-22,2025-04-27 00:00:00,Surgery,R07,63,M,Private,No,1,Transfer,5.0,R07,Chest pain,Emergency,0,1,23,0,2.0
+P10157,E200158,2024-05-31,2024-06-06 00:00:00,Orthopedics,N39,28,M,Private,No,2,ER,6.0,N39,"Urinary tract infection, site not specified",Urology,0,0,8,0,2.0
+P10158,E200159,2024-10-06,2024-10-11 00:00:00,Cardiology,C34,51,F,Medicare,No,2,Transfer,5.0,C34,Malignant neoplasm of bronchus and lung,Oncology,0,0,1,0,4.0
+P10159,E200160,2025-11-07,2025-11-13 00:00:00,Neurology,G40,14,M,Private,No,1,ER,6.0,G40,Epilepsy and recurrent seizures,Neurology,0,0,13,0,4.0
+P10160,E200161,2024-09-20,2024-10-02 00:00:00,Oncology,F32,72,F,Medicaid,No,3,ER,12.0,F32,"Major depressive disorder, single episode",Psychiatry,0,0,9,0,2.0
+P10161,E200162,2025-02-21,2025-02-25 00:00:00,Pulmonology,I63,35,M,Private,No,2,ER,4.0,I63,Cerebral infarction (stroke),Neurology,0,0,3,0,2.0
+P10162,E200163,2024-08-29,2024-09-15 00:00:00,Neurology,G40,96,M,Medicaid,No,4,ER,17.0,G40,Epilepsy and recurrent seizures,Neurology,0,1,15,0,2.0
+P10163,E200164,2025-08-21,2025-08-22 00:00:00,Cardiology,F32,87,M,Medicare,No,2,Clinic,1.0,F32,"Major depressive disorder, single episode",Psychiatry,0,0,30,0,1.0
+P10164,E200165,2025-06-05,2025-06-07 00:00:00,Pulmonology,K2,100,F,Private,No,1,ER,2.0,0,0,0,0,0,2,0,2.0
+P10165,E200166,2024-10-14,2024-10-22 00:00:00,ED,E11,13,M,Private,No,2,Transfer,8.0,E11,Type 2 diabetes mellitus,Endocrinology,1,0,28,0,3.0
+P10166,E200167,2025-03-01,2025-03-14 00:00:00,Surgery,J18,0,F,Medicaid,No,3,ER,13.0,J18,"Pneumonia, unspecified organism",Pulmonology,0,0,12,0,3.0
+P10167,E200168,2025-08-15,2025-08-16 00:00:00,Cardiology,R07,64,F,Self-pay,No,1,Clinic,1.0,R07,Chest pain,Emergency,0,0,18,0,2.0
+P10168,E200169,2024-10-13,2024-10-18 00:00:00,Neurology,M5,34,F,Medicare,No,2,ER,5.0,0,0,0,0,0,11,0,1.0
+P10169,E200170,2025-02-15,2025-02-28 00:00:00,General Medicine,I21,12,M,Medicare,No,3,ER,13.0,I21,Acute myocardial infarction,Cardiology,0,0,46,0,2.0
+P10170,E200171,2025-03-19,2025-03-22 00:00:00,Neurology,S7,73,M,Self-pay,No,1,ER,3.0,0,0,0,0,0,8,0,4.0
+P10171,E200172,2024-06-25,2024-06-28 00:00:00,Orthopedics,I10,57,F,Medicare,No,3,Clinic,3.0,I10,Essential (primary) hypertension,Cardiology,0,0,16,0,2.0
+P10172,E200173,2024-12-14,2024-12-18 00:00:00,Orthopedics,E78,60,F,Private,No,2,Clinic,4.0,E78,Disorders of lipoprotein metabolism (hyperlipidemia),Cardiology,1,0,31,1,2.0
+P10173,E200174,2025-05-04,2025-05-06 00:00:00,General Medicine,I21,6,F,Self-pay,No,1,Clinic,2.0,I21,Acute myocardial infarction,Cardiology,0,1,24,0,3.0
+P10174,E200175,2024-09-12,2024-09-17 00:00:00,Oncology,J18,61,M,Private,No,2,Transfer,5.0,J18,"Pneumonia, unspecified organism",Pulmonology,0,0,0,0,2.0
+P10175,E200176,2024-10-11,0,Neurology,J45,26,F,Medicare,No,1,ER,0.0,J45,Asthma,Pulmonology,0,0,185,0,2.0
+P10176,E200177,2025-01-18,2025-01-19 00:00:00,ED,J18,54,M,Private,No,1,ER,1.0,J18,"Pneumonia, unspecified organism",Pulmonology,1,0,8,0,3.0
+P10177,E200178,2025-08-14,0,Neurology,S72,35,F,Private,No,2,Clinic,0.0,S72,Fracture of femur,Orthopedics,0,0,142,0,1.0
+P10178,E200179,2025-01-11,2025-01-17 00:00:00,Pulmonology,J45,0,M,Private,No,2,Clinic,6.0,J45,Asthma,Pulmonology,0,0,47,0,3.0
+P10179,E200180,2025-08-19,2025-08-23 00:00:00,Surgery,F32,29,F,Medicaid,Yes,1,Transfer,4.0,F32,"Major depressive disorder, single episode",Psychiatry,0,0,14,0,4.0
+P10180,E200181,2025-05-27,2025-05-28 00:00:00,Pulmonology,G40,60,F,Private,No,1,Transfer,1.0,G40,Epilepsy and recurrent seizures,Neurology,0,0,38,0,2.0
+P10181,E200182,2024-06-23,2024-06-26 00:00:00,ED,I21,4,F,Private,No,2,ER,3.0,I21,Acute myocardial infarction,Cardiology,0,0,7,0,2.0
+P10182,E200183,2024-08-27,2024-09-18 00:00:00,Surgery,F32,90,M,Private,No,4,ER,22.0,F32,"Major depressive disorder, single episode",Psychiatry,0,1,14,0,2.0
+P10183,E200184,2024-12-19,2025-01-03 00:00:00,Cardiology,F32,50,M,Medicare,No,3,Transfer,15.0,F32,"Major depressive disorder, single episode",Psychiatry,0,0,3,0,1.0
+P10184,E200185,2025-01-01,2025-01-20 00:00:00,General Medicine,G40,0,F,Self-pay,No,4,ER,19.0,G40,Epilepsy and recurrent seizures,Neurology,0,0,34,0,3.0
+P10185,E200186,2024-12-12,2024-12-17 00:00:00,General Medicine,M5,77,M,Medicare,No,2,ER,5.0,0,0,0,0,0,10,0,1.0
+P10186,E200187,2025-08-06,2025-08-11 00:00:00,Neurology,R07,13,M,Medicare,No,2,ER,5.0,R07,Chest pain,Emergency,0,0,16,0,1.0
+P10187,E200188,2024-10-05,2024-10-06 00:00:00,Pulmonology,N39,52,M,Medicaid,No,1,Clinic,1.0,N39,"Urinary tract infection, site not specified",Urology,0,0,29,0,1.0
+P10188,E200189,2025-03-19,2025-03-22 00:00:00,Orthopedics,R07,95,M,Medicare,No,2,Clinic,3.0,R07,Chest pain,Emergency,0,0,25,0,2.0
+P10189,E200190,2025-03-05,2025-03-16 00:00:00,Pulmonology,E78,99,F,Private,No,4,ER,11.0,E78,Disorders of lipoprotein metabolism (hyperlipidemia),Cardiology,0,0,15,0,1.0
+P10190,E200191,2024-10-09,2024-10-10 00:00:00,Surgery,I1,60,F,Private,No,1,Clinic,1.0,0,0,0,0,0,12,0,3.0
+P10191,E200192,2025-04-24,2025-04-26 00:00:00,General Medicine,J4,10,M,Private,No,1,ER,2.0,0,0,0,0,0,34,0,2.0
+P10192,E200193,2025-09-14,2025-09-17 00:00:00,Neurology,C34,52,M,Private,No,1,Transfer,3.0,C34,Malignant neoplasm of bronchus and lung,Oncology,0,0,44,0,1.0
+P10193,E200194,2024-07-06,2024-07-10 00:00:00,Neurology,I21,80,M,Private,No,1,Clinic,4.0,I21,Acute myocardial infarction,Cardiology,0,0,14,0,2.0
+P10194,E200195,2025-01-31,2025-02-04 00:00:00,Orthopedics,J45,31,F,Medicaid,No,1,ER,4.0,J45,Asthma,Pulmonology,0,0,21,0,2.0
+P10195,E200196,2024-05-22,2024-05-28 00:00:00,Orthopedics,I6,100,F,Private,No,2,ER,6.0,0,0,0,0,0,46,0,2.0
+P10196,E200197,2025-11-19,2025-11-21 00:00:00,Cardiology,R0,100,M,Medicare,No,1,ER,2.0,0,0,0,0,0,12,0,2.0
+P10197,E200198,2025-09-14,2025-09-17 00:00:00,Surgery,S7,5,M,Medicare,No,1,Clinic,3.0,0,0,0,0,0,1,0,2.0
+P10198,E200199,2025-01-15,2025-01-19 00:00:00,ED,N39,30,M,Private,No,1,ER,4.0,N39,"Urinary tract infection, site not specified",Urology,0,0,19,0,2.0
+P10199,E200200,2024-09-23,2024-10-02 00:00:00,ED,S72,32,M,Medicaid,No,3,Clinic,9.0,S72,Fracture of femur,Orthopedics,0,1,4,0,1.0
+P10200,E200201,2024-11-15,2024-11-16 00:00:00,Cardiology,J4,19,M,Medicare,No,1,ER,1.0,0,0,0,0,0,12,0,3.0
+P10201,E200202,2025-02-06,2025-02-09 00:00:00,Cardiology,K21,92,F,Private,No,1,ER,3.0,K21,Gastro-esophageal reflux disease,Gastroenterology,0,0,37,0,3.0
+P10202,E200203,2024-05-31,2024-06-01 00:00:00,Neurology,I21,81,F,Medicaid,No,1,ER,1.0,I21,Acute myocardial infarction,Cardiology,0,1,25,0,3.0
+P10203,E200204,2025-05-31,2025-06-06 00:00:00,Oncology,N3,72,M,Medicare,No,2,ER,6.0,0,0,0,0,0,40,0,2.0
+P10204,E200205,2024-09-15,2024-09-25 00:00:00,Pulmonology,F32,100,M,Medicare,No,2,Clinic,10.0,F32,"Major depressive disorder, single episode",Psychiatry,0,0,32,1,2.0
+P10205,E200206,2024-11-07,2024-11-19 00:00:00,Neurology,J18,13,F,Medicare,No,3,Clinic,12.0,J18,"Pneumonia, unspecified organism",Pulmonology,0,0,19,0,1.0
+P10206,E200207,2024-07-11,2024-07-13 00:00:00,Oncology,M54,0,F,Medicare,No,1,ER,2.0,M54,Dorsalgia (back pain),Orthopedics,0,0,67,0,2.0
+P10207,E200208,2025-04-04,0,Oncology,I10,51,M,Medicaid,No,1,ER,0.0,I10,Essential (primary) hypertension,Cardiology,0,0,22,0,2.0
+P10208,E200209,2025-02-03,2025-02-12 00:00:00,ED,C34,3,F,Private,No,3,ER,9.0,C34,Malignant neoplasm of bronchus and lung,Oncology,0,0,16,0,2.0
+P10209,E200210,2025-04-30,2025-05-01 00:00:00,Orthopedics,I63,58,F,Private,No,1,ER,1.0,I63,Cerebral infarction (stroke),Neurology,0,0,3,0,4.0
+P10210,E200211,2024-07-31,2024-08-01 00:00:00,Orthopedics,C34,28,M,Private,No,2,ER,1.0,C34,Malignant neoplasm of bronchus and lung,Oncology,0,0,149,0,2.0
+P10211,E200212,2025-10-05,2025-10-10 00:00:00,Surgery,N39,75,M,Medicaid,Yes,1,Clinic,5.0,N39,"Urinary tract infection, site not specified",Urology,0,0,44,0,2.0
+P10212,E200213,2025-08-22,2025-08-29 00:00:00,Cardiology,R07,89,M,Private,No,1,ER,7.0,R07,Chest pain,Emergency,0,0,27,0,1.0
+P10213,E200214,2025-09-24,2025-09-29 00:00:00,Pulmonology,S72,75,F,Medicaid,Yes,1,Clinic,5.0,S72,Fracture of femur,Orthopedics,0,0,10,0,1.0
+P10214,E200215,2025-01-08,2025-01-14 00:00:00,ED,J18,26,M,Medicare,No,2,ER,6.0,J18,"Pneumonia, unspecified organism",Pulmonology,0,0,25,0,1.0
+P10215,E200216,2024-09-11,2024-09-18 00:00:00,Orthopedics,R07,88,F,Medicaid,No,3,ER,7.0,R07,Chest pain,Emergency,0,0,3,0,1.0
+P10216,E200217,2024-06-06,0,Neurology,I63,63,F,Self-pay,No,1,ER,0.0,I63,Cerebral infarction (stroke),Neurology,0,0,12,0,3.0
+P10217,E200218,2024-08-24,0,Orthopedics,I21,68,M,Medicaid,No,4,Transfer,0.0,I21,Acute myocardial infarction,Cardiology,0,0,9,0,2.0
+P10218,E200219,2025-08-23,2025-08-30 00:00:00,Orthopedics,E78,0,M,Medicaid,No,3,ER,7.0,E78,Disorders of lipoprotein metabolism (hyperlipidemia),Cardiology,0,0,18,0,1.0
+P10219,E200220,2024-07-09,2024-07-10 00:00:00,Surgery,J45,49,M,Private,No,1,ER,1.0,J45,Asthma,Pulmonology,0,0,7,0,1.0
+P10220,E200221,2025-04-29,2025-04-30 00:00:00,ED,N39,60,M,Medicare,No,2,Transfer,1.0,N39,"Urinary tract infection, site not specified",Urology,1,0,52,0,1.0
+P10221,E200222,2024-11-04,2024-11-10 00:00:00,ED,E78,93,M,Private,No,2,Transfer,6.0,E78,Disorders of lipoprotein metabolism (hyperlipidemia),Cardiology,1,0,19,0,4.0
+P10222,E200223,2025-08-01,2025-08-10 00:00:00,Neurology,J45,0,F,Private,No,2,Clinic,9.0,J45,Asthma,Pulmonology,0,0,10,0,2.0
+P10223,E200224,2025-03-07,2025-03-08 00:00:00,Neurology,R07,56,F,Medicare,No,1,ER,1.0,R07,Chest pain,Emergency,0,0,2,0,3.0
+P10224,E200225,2024-10-14,2024-10-15 00:00:00,Orthopedics,G40,64,F,Medicare,No,2,ER,1.0,G40,Epilepsy and recurrent seizures,Neurology,0,0,28,0,3.0
+P10225,E200226,2025-08-20,2025-08-31 00:00:00,Pulmonology,E1,36,F,Private,No,3,ER,11.0,0,0,0,0,0,30,0,2.0
+P10226,E200227,2025-06-25,2025-06-29 00:00:00,Surgery,J18,39,M,Medicare,No,2,ER,4.0,J18,"Pneumonia, unspecified organism",Pulmonology,0,0,40,0,1.0
+P10227,E200228,2024-06-29,2024-06-30 00:00:00,General Medicine,K21,82,F,Medicaid,No,1,ER,1.0,K21,Gastro-esophageal reflux disease,Gastroenterology,0,0,7,0,3.0
+P10228,E200229,2024-11-21,2024-11-22 00:00:00,Surgery,S72,90,M,Medicare,No,1,ER,1.0,S72,Fracture of femur,Orthopedics,0,0,29,0,2.0
+P10229,E200230,2025-08-16,2025-08-17 00:00:00,Cardiology,J18,77,M,Medicaid,No,1,ER,1.0,J18,"Pneumonia, unspecified organism",Pulmonology,0,0,10,0,1.0
+P10230,E200231,2024-07-25,2024-07-28 00:00:00,Surgery,R07,27,M,Medicaid,No,2,ER,3.0,R07,Chest pain,Emergency,0,0,154,0,2.0
+P10231,E200232,2025-10-14,2025-10-15 00:00:00,Orthopedics,S72,17,F,Self-pay,No,1,ER,1.0,S72,Fracture of femur,Orthopedics,0,0,9,0,2.0
+P10232,E200233,2025-06-09,2025-06-15 00:00:00,Orthopedics,I63,22,M,Medicare,No,3,ER,6.0,I63,Cerebral infarction (stroke),Neurology,0,0,31,0,2.0
+P10233,E200234,2025-03-01,2025-03-05 00:00:00,General Medicine,R07,56,F,Medicaid,No,2,Clinic,4.0,R07,Chest pain,Emergency,0,0,9,0,3.0
+P10234,E200235,2025-05-25,2025-05-28 00:00:00,Oncology,I63,17,F,Self-pay,No,1,Transfer,3.0,I63,Cerebral infarction (stroke),Neurology,0,0,39,0,2.0
+P10235,E200236,2025-04-18,2025-04-21 00:00:00,Pulmonology,I10,52,M,Self-pay,No,1,Clinic,3.0,I10,Essential (primary) hypertension,Cardiology,0,0,14,0,3.0
+P10236,E200237,2024-09-09,2024-09-21 00:00:00,Surgery,G40,5,F,Private,Yes,2,ER,12.0,G40,Epilepsy and recurrent seizures,Neurology,0,0,14,0,2.0
+P10237,E200238,2025-03-30,2025-04-03 00:00:00,Cardiology,K21,55,F,Private,No,1,ER,4.0,K21,Gastro-esophageal reflux disease,Gastroenterology,1,0,11,0,1.0
+P10238,E200239,2025-09-07,2025-09-12 00:00:00,Neurology,M54,59,M,Private,No,2,Clinic,5.0,M54,Dorsalgia (back pain),Orthopedics,0,1,9,0,2.0
+P10239,E200240,2025-02-19,2025-02-20 00:00:00,Surgery,I10,17,F,Private,No,1,ER,1.0,I10,Essential (primary) hypertension,Cardiology,0,0,8,0,3.0
+P10240,E200241,2025-08-05,0,ED,I21,92,M,Medicare,No,3,ER,0.0,I21,Acute myocardial infarction,Cardiology,0,0,15,0,4.0
+P10241,E200242,2025-02-09,2025-03-03 00:00:00,ED,I63,80,M,Medicaid,No,4,Clinic,22.0,I63,Cerebral infarction (stroke),Neurology,0,1,26,0,4.0
+P10242,E200243,2024-08-12,2024-08-16 00:00:00,Neurology,K21,48,M,Medicaid,No,2,ER,4.0,K21,Gastro-esophageal reflux disease,Gastroenterology,0,0,27,0,4.0
+P10243,E200244,2025-07-05,2025-07-08 00:00:00,Neurology,I63,22,F,Private,Yes,2,ER,3.0,I63,Cerebral infarction (stroke),Neurology,0,0,17,0,0.0
+P10244,E200245,2025-02-22,2025-02-26 00:00:00,Pulmonology,E78,61,F,Medicaid,No,1,ER,4.0,E78,Disorders of lipoprotein metabolism (hyperlipidemia),Cardiology,0,0,4,0,2.0
+P10245,E200246,2025-07-06,0,Pulmonology,S72,23,M,Medicare,No,1,Clinic,0.0,S72,Fracture of femur,Orthopedics,0,0,3,0,2.0
+P10246,E200247,2025-06-28,2025-06-30 00:00:00,General Medicine,N39,86,F,Medicaid,Yes,1,Transfer,2.0,N39,"Urinary tract infection, site not specified",Urology,1,0,8,0,2.0
+P10247,E200248,2025-05-20,2025-05-21 00:00:00,Surgery,E11,98,M,Self-pay,No,1,Clinic,1.0,E11,Type 2 diabetes mellitus,Endocrinology,0,0,33,0,2.0
+P10248,E200249,2024-09-01,2024-09-27 00:00:00,Oncology,I10,16,M,Medicare,No,4,ER,26.0,I10,Essential (primary) hypertension,Cardiology,0,0,1,0,1.0
+P10249,E200250,2024-06-03,0,Orthopedics,E11,53,M,Private,No,3,Clinic,0.0,E11,Type 2 diabetes mellitus,Endocrinology,0,0,9,0,1.0
+P10250,E200251,2025-11-12,2025-11-13 00:00:00,Pulmonology,I63,80,F,Medicaid,No,1,ER,1.0,I63,Cerebral infarction (stroke),Neurology,0,0,19,0,1.0
+P10251,E200252,2025-06-13,2025-06-22 00:00:00,Surgery,G40,38,F,Private,No,3,ER,9.0,G40,Epilepsy and recurrent seizures,Neurology,0,0,1,0,2.0
+P10252,E200253,2024-11-09,2024-11-14 00:00:00,Oncology,I21,24,M,Private,Yes,2,ER,5.0,I21,Acute myocardial infarction,Cardiology,0,0,4,0,4.0
+P10253,E200254,2025-09-13,2025-09-21 00:00:00,Orthopedics,I21,60,F,Medicaid,No,3,Clinic,8.0,I21,Acute myocardial infarction,Cardiology,0,0,22,0,2.0
+P10254,E200255,2025-05-14,0,ED,C34,94,F,Private,No,3,ER,0.0,C34,Malignant neoplasm of bronchus and lung,Oncology,0,0,24,0,2.0
+P10255,E200256,2024-05-22,2024-05-24 00:00:00,Orthopedics,M54,38,M,Medicaid,No,1,Clinic,2.0,M54,Dorsalgia (back pain),Orthopedics,0,0,18,1,3.0
+P10256,E200257,2025-08-06,2025-08-07 00:00:00,Neurology,E78,62,M,Private,No,1,ER,1.0,E78,Disorders of lipoprotein metabolism (hyperlipidemia),Cardiology,0,0,10,0,2.0
+P10257,E200258,2024-07-15,0,Neurology,I21,93,M,Medicaid,No,1,ER,0.0,I21,Acute myocardial infarction,Cardiology,0,0,4,0,2.0
+P10258,E200259,2025-08-03,2025-08-07 00:00:00,Neurology,S72,75,M,Private,No,2,ER,4.0,S72,Fracture of femur,Orthopedics,0,0,39,0,0.0
+P10259,E200260,2025-06-09,2025-06-16 00:00:00,Neurology,R07,39,F,Self-pay,No,2,Clinic,7.0,R07,Chest pain,Emergency,0,0,2,0,3.0
+P10260,E200261,2024-10-11,2024-10-13 00:00:00,Cardiology,S72,83,M,Medicaid,No,2,Clinic,2.0,S72,Fracture of femur,Orthopedics,1,0,14,0,1.0
+P10261,E200262,2024-11-03,2024-11-05 00:00:00,Orthopedics,J18,87,Other,Private,No,1,ER,2.0,J18,"Pneumonia, unspecified organism",Pulmonology,0,0,6,0,2.0
+P10262,E200263,2025-07-23,2025-08-05 00:00:00,General Medicine,J18,65,F,Medicare,No,3,ER,13.0,J18,"Pneumonia, unspecified organism",Pulmonology,0,0,3,0,2.0
+P10263,E200264,2025-07-17,2025-07-19 00:00:00,Neurology,J45,58,F,Self-pay,No,2,ER,2.0,J45,Asthma,Pulmonology,0,0,2,0,2.0
+P10264,E200265,2025-02-11,2025-02-15 00:00:00,Oncology,M54,100,M,Medicare,No,2,ER,4.0,M54,Dorsalgia (back pain),Orthopedics,0,0,18,0,2.0
+P10265,E200266,2024-08-21,2024-08-22 00:00:00,Cardiology,R07,65,M,Private,No,1,Clinic,1.0,R07,Chest pain,Emergency,0,1,8,0,2.0
+P10266,E200267,2025-06-02,2025-06-04 00:00:00,Neurology,J18,43,M,Medicare,No,2,ER,2.0,J18,"Pneumonia, unspecified organism",Pulmonology,0,0,12,0,3.0
+P10267,E200268,2024-08-22,2024-08-24 00:00:00,General Medicine,N3,91,M,Medicare,No,1,Clinic,2.0,0,0,0,0,0,28,0,1.0
+P10268,E200269,2024-08-27,2024-08-30 00:00:00,Oncology,R07,87,F,Medicaid,No,1,Clinic,3.0,R07,Chest pain,Emergency,1,0,14,0,3.0
+P10269,E200270,2025-04-11,0,ED,E78,74,F,Medicare,No,1,ER,0.0,E78,Disorders of lipoprotein metabolism (hyperlipidemia),Cardiology,0,0,35,0,2.0
+P10270,E200271,2025-03-11,2025-03-24 00:00:00,Cardiology,G40,20,M,Private,No,3,ER,13.0,G40,Epilepsy and recurrent seizures,Neurology,0,0,25,0,2.0
+P10271,E200272,2024-12-23,2024-12-24 00:00:00,Neurology,F32,47,M,Private,No,1,Transfer,1.0,F32,"Major depressive disorder, single episode",Psychiatry,0,0,28,0,3.0
+P10272,E200273,2024-07-07,0,Pulmonology,E11,80,M,Medicare,No,1,ER,0.0,E11,Type 2 diabetes mellitus,Endocrinology,0,0,14,0,1.0
+P10273,E200274,2025-05-19,0,ED,I63,0,M,Private,No,2,ER,0.0,I63,Cerebral infarction (stroke),Neurology,0,0,6,0,3.0
+P10274,E200275,2024-08-05,2024-08-08 00:00:00,Orthopedics,R0,16,F,Private,No,1,ER,3.0,0,0,0,1,0,36,0,1.0
+P10275,E200276,2024-08-14,2024-08-16 00:00:00,Orthopedics,S72,0,F,Self-pay,No,1,ER,2.0,S72,Fracture of femur,Orthopedics,0,0,12,0,1.0
+P10276,E200277,2024-10-18,2024-10-23 00:00:00,ED,C34,15,M,Medicare,No,1,ER,5.0,C34,Malignant neoplasm of bronchus and lung,Oncology,1,0,33,0,2.0
+P10277,E200278,2025-02-14,0,ED,C3,62,M,Medicare,No,1,ER,0.0,0,0,0,0,0,6,0,3.0
+P10278,E200279,2025-10-19,2025-10-22 00:00:00,Pulmonology,E11,24,M,Medicaid,No,1,Clinic,3.0,E11,Type 2 diabetes mellitus,Endocrinology,0,1,12,0,2.0
+P10279,E200280,2025-06-27,0,Cardiology,C34,76,M,Medicare,No,2,ER,0.0,C34,Malignant neoplasm of bronchus and lung,Oncology,0,0,40,0,2.0
+P10280,E200281,2025-06-28,2025-07-01 00:00:00,Pulmonology,N39,0,M,Medicaid,No,1,ER,3.0,N39,"Urinary tract infection, site not specified",Urology,0,0,42,1,1.0
+P10281,E200282,2025-07-01,2025-07-03 00:00:00,Oncology,F32,64,F,Medicare,No,2,ER,2.0,F32,"Major depressive disorder, single episode",Psychiatry,0,0,18,0,1.0
+P10282,E200283,2025-01-20,2025-01-22 00:00:00,Oncology,J45,92,F,Private,No,1,ER,2.0,J45,Asthma,Pulmonology,0,0,5,0,1.0
+P10283,E200284,2024-10-08,2024-10-09 00:00:00,Pulmonology,J45,64,F,Private,No,1,Clinic,1.0,J45,Asthma,Pulmonology,0,0,11,0,2.0
+P10284,E200285,2025-05-24,2025-05-30 00:00:00,General Medicine,K21,20,M,Medicare,No,2,Clinic,6.0,K21,Gastro-esophageal reflux disease,Gastroenterology,0,0,130,1,2.0
+P10285,E200286,2025-03-30,2025-04-03 00:00:00,Orthopedics,M54,12,F,Medicaid,No,2,ER,4.0,M54,Dorsalgia (back pain),Orthopedics,0,0,37,0,2.0
+P10286,E200287,2024-06-18,2024-06-19 00:00:00,Orthopedics,I63,51,F,Private,No,1,Clinic,1.0,I63,Cerebral infarction (stroke),Neurology,0,0,21,0,4.0
+P10287,E200288,2025-09-05,0,Neurology,R07,82,M,Private,No,1,ER,0.0,R07,Chest pain,Emergency,0,0,37,0,2.0
+P10288,E200289,2025-07-17,2025-07-28 00:00:00,Neurology,M54,67,F,Private,No,3,Clinic,11.0,M54,Dorsalgia (back pain),Orthopedics,0,0,1,0,1.0
+P10289,E200290,2025-08-10,2025-08-11 00:00:00,Oncology,I21,34,M,Private,No,1,ER,1.0,I21,Acute myocardial infarction,Cardiology,0,0,9,0,2.0
+P10290,E200291,2024-06-13,2024-06-16 00:00:00,Pulmonology,E11,80,F,Medicaid,No,1,ER,3.0,E11,Type 2 diabetes mellitus,Endocrinology,0,0,6,0,1.0
+P10291,E200292,2024-12-02,2024-12-03 00:00:00,Pulmonology,E11,18,F,Private,No,1,Clinic,1.0,E11,Type 2 diabetes mellitus,Endocrinology,0,0,13,0,2.0
+P10292,E200293,2025-05-05,0,Neurology,I21,68,M,Medicare,No,2,Clinic,0.0,I21,Acute myocardial infarction,Cardiology,0,0,24,0,2.0
+P10293,E200294,2024-06-08,2024-06-14 00:00:00,Pulmonology,K21,54,F,Medicare,No,2,Clinic,6.0,K21,Gastro-esophageal reflux disease,Gastroenterology,0,0,19,0,1.0
+P10294,E200295,2024-11-23,2024-11-30 00:00:00,ED,I10,87,F,Medicare,No,2,ER,7.0,I10,Essential (primary) hypertension,Cardiology,0,0,10,0,2.0
+P10295,E200296,2025-05-06,2025-05-18 00:00:00,Orthopedics,G40,81,M,Medicaid,No,4,Clinic,12.0,G40,Epilepsy and recurrent seizures,Neurology,0,0,243,0,2.0
+P10296,E200297,2024-09-13,2024-09-17 00:00:00,Neurology,R07,31,M,Private,No,2,ER,4.0,R07,Chest pain,Emergency,0,0,22,0,2.0
+P10297,E200298,2025-04-04,2025-04-09 00:00:00,Pulmonology,E11,17,F,Medicaid,No,2,Transfer,5.0,E11,Type 2 diabetes mellitus,Endocrinology,0,0,37,0,4.0
+P10298,E200299,2025-10-07,2025-10-17 00:00:00,Pulmonology,G40,2,M,Private,No,2,ER,10.0,G40,Epilepsy and recurrent seizures,Neurology,0,0,20,0,4.0
+P10299,E200300,2024-08-12,2024-08-13 00:00:00,Neurology,E11,6,F,Private,No,1,ER,1.0,E11,Type 2 diabetes mellitus,Endocrinology,0,0,17,0,2.0
+P10300,E200301,2025-08-21,2025-09-01 00:00:00,General Medicine,I10,56,F,Self-pay,No,3,Transfer,11.0,I10,Essential (primary) hypertension,Cardiology,0,0,31,0,0.0
+P10301,E200302,2025-06-06,2025-06-08 00:00:00,Orthopedics,I21,29,M,Private,No,1,ER,2.0,I21,Acute myocardial infarction,Cardiology,0,0,22,0,2.0
+P10302,E200303,2024-06-24,2024-06-27 00:00:00,ED,C34,57,M,Private,No,2,ER,3.0,C34,Malignant neoplasm of bronchus and lung,Oncology,0,0,34,0,3.0
+P10303,E200304,2025-02-12,2025-02-17 00:00:00,Neurology,J45,84,M,Medicaid,No,2,Clinic,5.0,J45,Asthma,Pulmonology,0,0,8,0,4.0
+P10304,E200305,2025-10-14,2025-10-19 00:00:00,Oncology,I10,71,M,Private,No,2,ER,5.0,I10,Essential (primary) hypertension,Cardiology,0,1,13,0,1.0
+P10305,E200306,2025-11-03,2025-11-09 00:00:00,Oncology,E11,17,M,Medicaid,No,2,ER,6.0,E11,Type 2 diabetes mellitus,Endocrinology,0,0,20,0,0.0
+P10306,E200307,2025-07-28,2025-07-30 00:00:00,Orthopedics,I21,95,F,Private,No,1,Clinic,2.0,I21,Acute myocardial infarction,Cardiology,1,0,42,0,1.0
+P10307,E200308,2024-11-09,2024-11-10 00:00:00,Cardiology,I6,33,F,Self-pay,No,1,Clinic,1.0,0,0,0,0,0,190,0,3.0
+P10308,E200309,2025-07-11,2025-07-12 00:00:00,Oncology,I10,35,M,Medicaid,No,2,Clinic,1.0,I10,Essential (primary) hypertension,Cardiology,0,0,42,0,3.0
+P10309,E200310,2025-03-02,2025-03-06 00:00:00,Oncology,E78,65,F,Medicare,No,1,ER,4.0,E78,Disorders of lipoprotein metabolism (hyperlipidemia),Cardiology,0,0,10,0,1.0
+P10310,E200311,2024-10-31,0,ED,K21,41,F,Self-pay,No,1,ER,0.0,K21,Gastro-esophageal reflux disease,Gastroenterology,1,0,23,0,2.0
+P10311,E200312,2024-08-28,0,General Medicine,I2,11,F,Private,No,1,Transfer,0.0,0,0,0,0,0,18,0,3.0
+P10312,E200313,2025-08-01,2025-08-05 00:00:00,Cardiology,R07,27,F,Self-pay,No,2,ER,4.0,R07,Chest pain,Emergency,0,0,4,0,1.0
+P10313,E200314,2025-06-04,2025-06-07 00:00:00,Oncology,E11,15,M,Private,Yes,2,Clinic,3.0,E11,Type 2 diabetes mellitus,Endocrinology,0,0,24,0,1.0
+P10314,E200315,2025-05-27,0,Surgery,N39,82,M,Medicare,No,1,Clinic,0.0,N39,"Urinary tract infection, site not specified",Urology,0,0,5,0,3.0
+P10315,E200316,2024-09-16,0,Cardiology,J45,96,M,Private,No,1,Clinic,0.0,J45,Asthma,Pulmonology,0,1,195,0,1.0
+P10316,E200317,2024-11-17,2024-11-21 00:00:00,Neurology,M54,36,F,Medicare,No,1,ER,4.0,M54,Dorsalgia (back pain),Orthopedics,0,0,16,0,3.0
+P10317,E200318,2024-09-08,2024-09-15 00:00:00,Pulmonology,E11,65,F,Private,No,2,ER,7.0,E11,Type 2 diabetes mellitus,Endocrinology,1,0,1,0,3.0
+P10318,E200319,2025-02-01,2025-02-03 00:00:00,Neurology,R07,3,F,Medicaid,No,1,ER,2.0,R07,Chest pain,Emergency,0,0,12,0,2.0
+P10319,E200320,2024-07-21,2024-07-23 00:00:00,Pulmonology,J18,38,F,Medicaid,No,1,ER,2.0,J18,"Pneumonia, unspecified organism",Pulmonology,0,0,5,0,1.0
+P10320,E200321,2024-08-16,2024-08-19 00:00:00,Cardiology,C3,63,M,Self-pay,No,1,Clinic,3.0,0,0,0,0,0,12,0,0.0
+P10321,E200322,2024-12-10,2024-12-16 00:00:00,General Medicine,I63,0,M,Private,No,2,ER,6.0,I63,Cerebral infarction (stroke),Neurology,0,0,14,0,3.0
+P10322,E200323,2025-09-25,0,Surgery,I63,6,M,Medicare,No,1,ER,0.0,I63,Cerebral infarction (stroke),Neurology,0,0,7,0,1.0
+P10323,E200324,2024-06-09,2024-06-14 00:00:00,General Medicine,G40,0,F,Medicare,No,2,ER,5.0,G40,Epilepsy and recurrent seizures,Neurology,0,0,21,0,3.0
+P10324,E200325,2025-04-15,2025-04-24 00:00:00,Pulmonology,G40,85,M,Private,No,3,Clinic,9.0,G40,Epilepsy and recurrent seizures,Neurology,0,0,35,0,4.0
+P10325,E200326,2024-10-16,0,Cardiology,M54,40,M,Private,No,1,Clinic,0.0,M54,Dorsalgia (back pain),Orthopedics,0,0,9,1,1.0
+P10326,E200327,2025-02-21,2025-02-23 00:00:00,General Medicine,E11,22,M,Private,No,1,ER,2.0,E11,Type 2 diabetes mellitus,Endocrinology,0,0,33,1,1.0
+P10327,E200328,2025-09-14,2025-09-22 00:00:00,ED,S72,38,M,Medicaid,No,2,ER,8.0,S72,Fracture of femur,Orthopedics,0,0,40,0,0.0
+P10328,E200329,2024-07-25,2024-07-28 00:00:00,Cardiology,M54,81,F,Medicare,No,1,Clinic,3.0,M54,Dorsalgia (back pain),Orthopedics,0,0,32,0,1.0
+P10329,E200330,2024-07-23,2024-07-25 00:00:00,Orthopedics,S72,90,F,Medicare,No,1,ER,2.0,S72,Fracture of femur,Orthopedics,0,0,10,0,2.0
+P10330,E200331,2025-04-27,2025-05-01 00:00:00,Orthopedics,F32,35,F,Private,No,1,ER,4.0,F32,"Major depressive disorder, single episode",Psychiatry,0,0,4,0,2.0
+P10331,E200332,2024-08-12,2024-08-21 00:00:00,Neurology,E11,33,M,Private,No,2,ER,9.0,E11,Type 2 diabetes mellitus,Endocrinology,0,0,7,0,1.0
+P10332,E200333,2024-07-10,0,Pulmonology,I21,61,F,Private,Yes,2,ER,0.0,I21,Acute myocardial infarction,Cardiology,0,0,24,0,1.0
+P10333,E200334,2025-09-08,2025-09-16 00:00:00,Orthopedics,I21,25,F,Self-pay,No,3,ER,8.0,I21,Acute myocardial infarction,Cardiology,0,0,22,0,2.0
+P10334,E200335,2025-09-24,2025-09-29 00:00:00,ED,J45,46,F,Private,No,3,ER,5.0,J45,Asthma,Pulmonology,0,0,22,0,1.0
+P10335,E200336,2025-04-06,2025-04-08 00:00:00,ED,F32,83,F,Private,No,1,ER,2.0,F32,"Major depressive disorder, single episode",Psychiatry,0,0,4,0,2.0
+P10336,E200337,2024-11-04,2024-11-13 00:00:00,Neurology,K21,55,M,Private,No,2,Clinic,9.0,K21,Gastro-esophageal reflux disease,Gastroenterology,0,0,1,0,2.0
+P10337,E200338,2024-10-31,2024-11-07 00:00:00,ED,F32,94,M,Medicaid,No,2,ER,7.0,F32,"Major depressive disorder, single episode",Psychiatry,0,0,8,0,0.0
+P10338,E200339,2024-07-08,2024-07-09 00:00:00,Pulmonology,F3,60,F,Self-pay,No,2,Clinic,1.0,0,0,0,0,0,53,1,1.0
+P10339,E200340,2025-08-20,2025-08-22 00:00:00,General Medicine,M54,45,F,Medicaid,No,1,ER,2.0,M54,Dorsalgia (back pain),Orthopedics,0,0,15,0,3.0
+P10340,E200341,2024-09-06,2024-09-10 00:00:00,Pulmonology,E7,45,F,Medicare,No,1,ER,4.0,0,0,0,0,0,54,0,3.0
+P10340,E200342,2024-12-15,2024-12-27 00:00:00,Cardiology,C3,55,F,Medicare,No,3,Clinic,12.0,0,0,0,0,0,17,0,1.0
+P10341,E200344,2025-08-01,2025-08-05 00:00:00,Pulmonology,J45,75,F,Medicare,Yes,1,Clinic,4.0,J45,Asthma,Pulmonology,0,0,29,0,1.0
+P10341,E200343,2025-08-17,2025-08-19 00:00:00,Cardiology,I10,78,F,Medicare,No,2,Clinic,2.0,I10,Essential (primary) hypertension,Cardiology,0,0,18,0,4.0
+P10342,E200346,2024-06-19,2024-06-20 00:00:00,Surgery,J45,31,F,Private,No,1,ER,1.0,J45,Asthma,Pulmonology,0,0,117,0,3.0
+P10342,E200345,2025-06-29,2025-07-20 00:00:00,Orthopedics,J45,20,F,Private,No,4,ER,21.0,J45,Asthma,Pulmonology,0,0,12,0,1.0
+P10343,E200348,2024-06-06,2024-06-28 00:00:00,Neurology,I10,18,F,Self-pay,No,4,ER,22.0,I10,Essential (primary) hypertension,Cardiology,0,0,19,0,1.0
+P10343,E200347,2025-09-18,2025-09-30 00:00:00,General Medicine,I21,28,F,Self-pay,No,4,ER,12.0,I21,Acute myocardial infarction,Cardiology,0,0,12,0,1.0
+P10344,E200349,2025-07-23,2025-07-24 00:00:00,Surgery,F32,0,F,Medicaid,Yes,1,ER,1.0,F32,"Major depressive disorder, single episode",Psychiatry,0,0,54,0,3.0
+P10344,E200350,2025-07-31,2025-08-02 00:00:00,ED,C34,0,F,Medicaid,No,1,ER,2.0,C34,Malignant neoplasm of bronchus and lung,Oncology,0,0,48,0,1.0
+P10345,E200352,2024-08-27,2024-09-03 00:00:00,Cardiology,S72,0,M,Medicare,No,2,ER,7.0,S72,Fracture of femur,Orthopedics,0,0,8,0,3.0
+P10345,E200351,2025-09-22,2025-09-26 00:00:00,ED,K21,0,M,Medicare,No,2,ER,4.0,K21,Gastro-esophageal reflux disease,Gastroenterology,0,0,11,0,3.0
+P10346,E200354,2025-07-15,2025-07-21 00:00:00,Oncology,I21,86,M,Medicaid,No,2,Clinic,6.0,I21,Acute myocardial infarction,Cardiology,0,1,96,0,3.0
+P10346,E200353,2025-10-08,2025-10-10 00:00:00,Orthopedics,E78,94,M,Medicaid,No,1,Transfer,2.0,E78,Disorders of lipoprotein metabolism (hyperlipidemia),Cardiology,0,0,110,0,2.0
+P10347,E200355,2025-01-12,2025-01-15 00:00:00,Oncology,E11,56,F,Medicaid,No,2,ER,3.0,E11,Type 2 diabetes mellitus,Endocrinology,0,0,135,0,4.0
+P10347,E200356,2025-04-27,2025-05-02 00:00:00,Surgery,E11,60,F,Medicaid,No,1,ER,5.0,E11,Type 2 diabetes mellitus,Endocrinology,0,0,14,0,0.0
+P10348,E200357,2024-07-12,0,Pulmonology,E11,79,F,Medicare,No,2,ER,0.0,E11,Type 2 diabetes mellitus,Endocrinology,0,0,166,0,3.0
+P10348,E200358,2025-06-09,2025-06-10 00:00:00,General Medicine,R07,72,F,Medicare,No,1,ER,1.0,R07,Chest pain,Emergency,1,0,60,0,2.0
+P10349,E200359,2025-01-08,2025-01-16 00:00:00,Cardiology,M54,49,M,Self-pay,No,3,Clinic,8.0,M54,Dorsalgia (back pain),Orthopedics,0,0,26,0,4.0
+P10349,E200360,2025-06-23,2025-06-26 00:00:00,ED,J18,62,M,Self-pay,No,1,ER,3.0,J18,"Pneumonia, unspecified organism",Pulmonology,0,0,14,0,4.0
+P10350,E200361,2024-12-19,2024-12-22 00:00:00,Oncology,F32,58,F,Self-pay,No,2,ER,3.0,F32,"Major depressive disorder, single episode",Psychiatry,0,1,29,0,0.0
+P10350,E200362,2025-06-21,2025-06-23 00:00:00,Orthopedics,J18,56,F,Self-pay,No,1,Clinic,2.0,J18,"Pneumonia, unspecified organism",Pulmonology,0,0,24,0,2.0
+P10351,E200364,2024-08-15,2024-08-18 00:00:00,Cardiology,M54,83,M,Medicare,No,1,ER,3.0,M54,Dorsalgia (back pain),Orthopedics,0,0,27,0,3.0
+P10351,E200363,2025-05-29,2025-06-04 00:00:00,Neurology,N3,79,M,Medicare,No,1,ER,6.0,0,0,0,0,0,11,0,2.0
+P10352,E200366,2025-02-13,2025-02-15 00:00:00,General Medicine,E78,0,M,Medicare,No,2,Clinic,2.0,E78,Disorders of lipoprotein metabolism (hyperlipidemia),Cardiology,0,0,4,0,3.0
+P10352,E200365,2025-05-07,2025-05-09 00:00:00,Cardiology,E11,4,M,Medicare,No,2,Clinic,2.0,E11,Type 2 diabetes mellitus,Endocrinology,0,0,0,0,1.0
+P10353,E200367,2024-11-07,2024-11-17 00:00:00,Neurology,I63,72,F,Private,No,2,ER,10.0,I63,Cerebral infarction (stroke),Neurology,0,0,45,0,2.0
+P10353,E200368,2025-11-03,2025-11-04 00:00:00,Pulmonology,I21,100,F,Private,No,1,ER,1.0,I21,Acute myocardial infarction,Cardiology,1,0,42,0,2.0
+P10354,E200370,2024-05-24,0,Cardiology,S72,35,F,Medicare,No,1,Clinic,0.0,S72,Fracture of femur,Orthopedics,0,0,16,0,1.0
+P10354,E200369,2024-10-31,2024-11-03 00:00:00,ED,M5,32,F,Medicare,No,1,Transfer,3.0,0,0,0,0,0,4,0,4.0
+P10355,E200371,2024-06-24,2024-06-28 00:00:00,Neurology,E78,91,M,Private,No,1,Clinic,4.0,E78,Disorders of lipoprotein metabolism (hyperlipidemia),Cardiology,0,0,4,0,1.0
+P10355,E200372,2025-11-20,0,Neurology,E78,75,M,Private,No,2,Clinic,0.0,E78,Disorders of lipoprotein metabolism (hyperlipidemia),Cardiology,0,0,11,0,3.0
+P10356,E200374,2025-03-01,2025-03-05 00:00:00,Orthopedics,I21,71,F,Medicare,Yes,2,Clinic,4.0,I21,Acute myocardial infarction,Cardiology,0,0,1,0,1.0
+P10356,E200373,2025-03-31,0,Orthopedics,R07,78,F,Medicare,No,1,ER,0.0,R07,Chest pain,Emergency,0,0,2,0,3.0
+P10357,E200376,2024-08-24,0,Cardiology,J45,68,M,Self-pay,No,1,ER,0.0,J45,Asthma,Pulmonology,0,0,6,0,2.0
+P10357,E200375,2025-01-28,2025-01-30 00:00:00,Cardiology,I10,72,M,Self-pay,No,1,ER,2.0,I10,Essential (primary) hypertension,Cardiology,0,0,3,0,3.0
+P10358,E200377,2024-10-16,2024-10-17 00:00:00,Orthopedics,R07,8,M,Medicare,No,1,ER,1.0,R07,Chest pain,Emergency,0,0,175,0,2.0
+P10358,E200378,2025-10-11,2025-10-17 00:00:00,ED,E78,28,M,Medicare,No,2,ER,6.0,E78,Disorders of lipoprotein metabolism (hyperlipidemia),Cardiology,0,0,176,0,2.0
+P10359,E200380,2025-02-13,2025-02-21 00:00:00,Oncology,I21,26,M,Medicare,No,3,Clinic,8.0,I21,Acute myocardial infarction,Cardiology,0,0,30,0,0.0
+P10359,E200379,2025-05-24,0,Orthopedics,I1,36,M,Medicare,No,1,Clinic,0.0,0,0,0,0,0,10,0,2.0
+P10360,E200381,2024-06-23,2024-06-25 00:00:00,Oncology,I63,20,F,Private,No,1,ER,2.0,I63,Cerebral infarction (stroke),Neurology,0,0,222,0,2.0
+P10360,E200382,2025-11-11,2025-11-19 00:00:00,Oncology,S72,24,F,Private,No,2,ER,8.0,S72,Fracture of femur,Orthopedics,0,0,15,0,2.0
+P10361,E200383,2024-10-09,0,ED,E78,55,M,Private,No,1,Clinic,0.0,E78,Disorders of lipoprotein metabolism (hyperlipidemia),Cardiology,0,0,32,0,2.0
+P10361,E200384,2025-05-09,2025-05-23 00:00:00,Pulmonology,E11,65,M,Private,No,4,Transfer,14.0,E11,Type 2 diabetes mellitus,Endocrinology,0,0,14,0,2.0
+P10362,E200385,2025-05-25,2025-05-28 00:00:00,ED,J18,40,F,Medicaid,No,1,ER,3.0,J18,"Pneumonia, unspecified organism",Pulmonology,0,0,12,0,1.0
+P10362,E200386,2025-11-18,2025-11-21 00:00:00,ED,F32,49,F,Medicaid,No,3,ER,3.0,F32,"Major depressive disorder, single episode",Psychiatry,1,0,0,0,3.0
+P10363,E200388,2024-12-21,2024-12-23 00:00:00,Pulmonology,M54,0,M,Private,Yes,1,Clinic,2.0,M54,Dorsalgia (back pain),Orthopedics,0,1,16,0,4.0
+P10363,E200387,2025-01-17,2025-01-19 00:00:00,General Medicine,M54,2,M,Private,No,1,ER,2.0,M54,Dorsalgia (back pain),Orthopedics,1,0,14,1,4.0
+P10364,E200390,2024-08-07,2024-08-10 00:00:00,General Medicine,E78,0,M,Private,No,1,Clinic,3.0,E78,Disorders of lipoprotein metabolism (hyperlipidemia),Cardiology,0,0,6,0,0.0
+P10364,E200389,2025-06-05,2025-06-06 00:00:00,Pulmonology,E1,3,M,Private,No,2,ER,1.0,0,0,0,0,0,4,0,3.0
+P10365,E200392,2025-04-29,2025-05-07 00:00:00,Pulmonology,I63,17,F,Private,No,3,ER,8.0,I63,Cerebral infarction (stroke),Neurology,0,1,2,0,3.0
+P10365,E200391,2025-09-03,0,Orthopedics,F32,27,F,Private,No,2,ER,0.0,F32,"Major depressive disorder, single episode",Psychiatry,0,0,46,0,2.0
+P10366,E200393,2024-10-16,0,Pulmonology,I1,15,M,Medicaid,No,1,Transfer,0.0,0,0,0,1,0,10,0,2.0
+P10366,E200394,2025-10-11,2025-10-12 00:00:00,Pulmonology,J18,21,M,Medicaid,No,1,Transfer,1.0,J18,"Pneumonia, unspecified organism",Pulmonology,0,1,17,0,2.0
+P10367,E200395,2024-10-13,0,ED,F3,43,M,Medicaid,No,1,ER,0.0,0,0,0,0,0,9,0,2.0
+P10367,E200396,2025-06-28,2025-07-01 00:00:00,Cardiology,I10,35,M,Medicaid,No,2,ER,3.0,I10,Essential (primary) hypertension,Cardiology,0,0,34,1,2.0
+P10368,E200397,2025-09-12,2025-09-16 00:00:00,Surgery,F32,77,F,Private,No,1,Transfer,4.0,F32,"Major depressive disorder, single episode",Psychiatry,0,0,3,0,4.0
+P10368,E200398,2025-11-03,2025-11-04 00:00:00,Pulmonology,N39,94,F,Private,No,1,Clinic,1.0,N39,"Urinary tract infection, site not specified",Urology,0,0,14,0,3.0
+P10369,E200400,2024-07-01,2024-07-18 00:00:00,Orthopedics,S72,1,F,Medicare,No,3,Clinic,17.0,S72,Fracture of femur,Orthopedics,0,0,29,0,3.0
+P10369,E200399,2025-03-30,2025-04-02 00:00:00,Pulmonology,I63,5,F,Medicare,No,2,Clinic,3.0,I63,Cerebral infarction (stroke),Neurology,0,0,53,0,1.0
+P10370,E200401,2025-02-12,2025-02-16 00:00:00,Orthopedics,S72,57,F,Medicare,No,1,ER,4.0,S72,Fracture of femur,Orthopedics,0,0,7,0,1.0
+P10370,E200402,2025-09-26,2025-09-29 00:00:00,General Medicine,M5,60,F,Medicare,No,2,Clinic,3.0,0,0,0,1,0,37,0,2.0
+P10371,E200404,2024-06-10,2024-06-16 00:00:00,General Medicine,F32,88,F,Medicare,No,2,ER,6.0,F32,"Major depressive disorder, single episode",Psychiatry,0,0,10,0,3.0
+P10371,E200403,2024-09-29,0,Orthopedics,N39,100,F,Medicare,No,2,ER,0.0,N39,"Urinary tract infection, site not specified",Urology,0,0,17,0,2.0
+P10372,E200405,2025-03-12,2025-03-19 00:00:00,ED,C34,11,F,Medicare,No,2,ER,7.0,C34,Malignant neoplasm of bronchus and lung,Oncology,0,0,4,0,4.0
+P10372,E200406,2025-07-05,2025-07-17 00:00:00,Cardiology,C34,14,F,Medicare,No,3,ER,12.0,C34,Malignant neoplasm of bronchus and lung,Oncology,0,0,26,0,4.0
+P10373,E200407,2025-08-06,2025-08-20 00:00:00,Oncology,S72,70,M,Private,No,4,ER,14.0,S72,Fracture of femur,Orthopedics,0,0,20,1,3.0
+P10373,E200408,2025-10-08,2025-10-10 00:00:00,Pulmonology,R07,72,M,Private,No,2,Transfer,2.0,R07,Chest pain,Emergency,0,0,23,0,2.0
+P10374,E200410,2024-06-11,2024-06-13 00:00:00,Neurology,C34,39,F,Medicare,No,1,Transfer,2.0,C34,Malignant neoplasm of bronchus and lung,Oncology,0,0,3,0,2.0
+P10374,E200409,2025-09-09,2025-09-10 00:00:00,ED,J45,27,F,Medicare,No,1,ER,1.0,J45,Asthma,Pulmonology,1,0,25,0,3.0
+P10375,E200411,2024-07-27,2024-08-03 00:00:00,Orthopedics,M54,47,F,Medicare,No,3,Clinic,7.0,M54,Dorsalgia (back pain),Orthopedics,0,0,19,0,4.0
+P10375,E200412,2025-07-04,2025-07-06 00:00:00,Orthopedics,J1,54,F,Medicare,No,1,ER,2.0,0,0,0,0,0,25,0,2.0
+P10376,E200413,2024-12-09,2024-12-17 00:00:00,Surgery,E11,0,M,Medicaid,No,2,ER,8.0,E11,Type 2 diabetes mellitus,Endocrinology,0,0,37,1,2.0
+P10376,E200414,2025-06-02,2025-06-03 00:00:00,Cardiology,N39,6,M,Medicaid,No,1,Clinic,1.0,N39,"Urinary tract infection, site not specified",Urology,0,0,39,0,1.0
+P10377,E200416,2024-08-15,2024-08-20 00:00:00,General Medicine,I10,71,F,Medicare,No,2,ER,5.0,I10,Essential (primary) hypertension,Cardiology,0,0,0,0,2.0
+P10377,E200415,2025-06-13,2025-06-14 00:00:00,Neurology,E11,85,F,Medicare,No,1,ER,1.0,E11,Type 2 diabetes mellitus,Endocrinology,0,0,10,0,3.0
+P10378,E200417,2024-11-18,2024-11-29 00:00:00,Oncology,G40,88,M,Private,No,3,ER,11.0,G40,Epilepsy and recurrent seizures,Neurology,0,0,47,0,4.0
+P10378,E200418,2025-01-26,2025-01-28 00:00:00,General Medicine,C34,100,M,Private,No,2,ER,2.0,C34,Malignant neoplasm of bronchus and lung,Oncology,0,0,15,0,2.0
+P10379,E200420,2024-05-21,2024-05-25 00:00:00,Cardiology,I10,38,F,Private,No,1,ER,4.0,I10,Essential (primary) hypertension,Cardiology,0,0,61,0,4.0
+P10379,E200419,2024-11-12,2024-11-13 00:00:00,Neurology,R07,36,F,Private,No,1,ER,1.0,R07,Chest pain,Emergency,0,0,7,0,4.0
+P10380,E200422,2024-10-06,0,Cardiology,K21,37,F,Medicare,No,4,ER,0.0,K21,Gastro-esophageal reflux disease,Gastroenterology,0,0,13,0,2.0
+P10380,E200421,2025-11-19,2025-11-23 00:00:00,Cardiology,C34,37,F,Medicare,No,2,ER,4.0,C34,Malignant neoplasm of bronchus and lung,Oncology,0,0,8,0,3.0
+P10381,E200423,2024-07-01,2024-07-05 00:00:00,General Medicine,I10,22,M,Medicaid,No,2,Transfer,4.0,I10,Essential (primary) hypertension,Cardiology,1,0,172,0,1.0
+P10381,E200424,2024-10-29,2024-11-01 00:00:00,Pulmonology,I10,13,M,Medicaid,No,1,ER,3.0,I10,Essential (primary) hypertension,Cardiology,0,0,19,0,2.0
+P10382,E200426,2024-07-24,2024-07-27 00:00:00,General Medicine,M54,17,M,Medicare,No,1,ER,3.0,M54,Dorsalgia (back pain),Orthopedics,0,0,2,0,2.0
+P10382,E200425,2024-09-27,2024-10-03 00:00:00,General Medicine,G40,8,M,Medicare,No,1,ER,6.0,G40,Epilepsy and recurrent seizures,Neurology,0,0,11,0,2.0
+P10383,E200428,2024-06-29,2024-07-29 00:00:00,Surgery,I63,92,M,Medicare,No,4,Clinic,30.0,I63,Cerebral infarction (stroke),Neurology,1,0,23,0,4.0
+P10383,E200427,2025-02-24,2025-03-03 00:00:00,Oncology,R07,77,M,Medicare,No,2,ER,7.0,R07,Chest pain,Emergency,0,0,13,0,3.0
+P10384,E200429,2024-10-29,2024-11-10 00:00:00,General Medicine,E78,12,M,Medicaid,No,3,ER,12.0,E78,Disorders of lipoprotein metabolism (hyperlipidemia),Cardiology,0,0,52,0,0.0
+P10384,E200430,2025-09-16,2025-09-21 00:00:00,Orthopedics,R07,28,M,Medicaid,No,2,Clinic,5.0,R07,Chest pain,Emergency,1,0,19,0,2.0
+P10385,E200432,2024-07-18,2024-07-19 00:00:00,Orthopedics,I10,72,M,Medicare,No,1,Transfer,1.0,I10,Essential (primary) hypertension,Cardiology,0,0,39,0,2.0
+P10385,E200431,2025-04-27,2025-04-28 00:00:00,Pulmonology,J18,58,M,Medicare,No,1,ER,1.0,J18,"Pneumonia, unspecified organism",Pulmonology,0,0,2,0,3.0
+P10386,E200434,2025-03-08,2025-03-11 00:00:00,Orthopedics,I21,0,F,Private,No,1,ER,3.0,I21,Acute myocardial infarction,Cardiology,0,0,5,0,1.0
+P10386,E200433,2025-11-06,0,General Medicine,R07,17,F,Private,Yes,2,ER,0.0,R07,Chest pain,Emergency,0,0,3,0,1.0
+P10387,E200436,2025-09-15,2025-09-28 00:00:00,ED,J18,71,F,Medicaid,Yes,3,ER,13.0,J18,"Pneumonia, unspecified organism",Pulmonology,0,0,33,0,2.0
+P10387,E200435,2025-10-25,2025-10-29 00:00:00,ED,E78,54,F,Medicaid,No,2,ER,4.0,E78,Disorders of lipoprotein metabolism (hyperlipidemia),Cardiology,0,0,12,0,2.0
+P10388,E200439,2025-04-07,2025-04-16 00:00:00,ED,I2,20,M,Private,Yes,3,ER,9.0,0,0,0,0,0,3,0,1.0
+P10388,E200438,2025-08-15,2025-08-16 00:00:00,General Medicine,G40,28,M,Private,No,1,Clinic,1.0,G40,Epilepsy and recurrent seizures,Neurology,0,0,2,0,1.0
+P10388,E200437,2025-10-14,2025-10-15 00:00:00,Oncology,I21,27,M,Private,No,1,Transfer,1.0,I21,Acute myocardial infarction,Cardiology,0,0,6,0,1.0
+P10389,E200442,2024-08-18,2024-08-23 00:00:00,Surgery,E11,93,M,Medicare,No,1,Clinic,5.0,E11,Type 2 diabetes mellitus,Endocrinology,0,0,28,0,4.0
+P10389,E200441,2025-06-18,0,Cardiology,E78,100,M,Medicare,No,2,Transfer,0.0,E78,Disorders of lipoprotein metabolism (hyperlipidemia),Cardiology,0,0,21,0,2.0
+P10389,E200440,2025-08-14,2025-08-22 00:00:00,Neurology,J45,100,M,Medicare,No,3,Clinic,8.0,J45,Asthma,Pulmonology,0,0,9,0,3.0
+P10390,E200443,2024-05-29,0,Pulmonology,F32,73,Other,Self-pay,No,1,ER,0.0,F32,"Major depressive disorder, single episode",Psychiatry,0,0,17,0,2.0
+P10390,E200444,2025-01-26,0,Orthopedics,I21,100,Other,Self-pay,No,1,ER,0.0,I21,Acute myocardial infarction,Cardiology,0,0,41,0,3.0
+P10390,E200445,2025-10-06,2025-10-16 00:00:00,Surgery,I63,85,Other,Self-pay,No,3,ER,10.0,I63,Cerebral infarction (stroke),Neurology,0,0,0,0,2.0
+P10391,E200448,2024-05-29,0,Cardiology,G4,26,F,Private,No,2,ER,0.0,0,0,0,0,0,43,0,3.0
+P10391,E200446,2024-10-21,2024-10-24 00:00:00,Orthopedics,G40,49,F,Private,No,1,Clinic,3.0,G40,Epilepsy and recurrent seizures,Neurology,0,0,10,0,3.0
+P10391,E200447,2024-12-03,0,Pulmonology,E11,12,F,Private,No,1,ER,0.0,E11,Type 2 diabetes mellitus,Endocrinology,0,0,10,0,2.0
+P10392,E200451,2024-09-26,2024-09-28 00:00:00,Orthopedics,G40,5,F,Private,No,1,ER,2.0,G40,Epilepsy and recurrent seizures,Neurology,0,0,6,0,2.0
+P10392,E200450,2025-08-08,2025-08-15 00:00:00,Oncology,I10,2,F,Private,Yes,2,ER,7.0,I10,Essential (primary) hypertension,Cardiology,0,0,81,0,1.0
+P10392,E200449,2025-08-31,2025-09-01 00:00:00,Pulmonology,G40,0,F,Private,No,2,ER,1.0,G40,Epilepsy and recurrent seizures,Neurology,0,0,137,0,1.0
+P10393,E200453,2024-08-24,2024-08-26 00:00:00,Orthopedics,F3,46,M,Private,No,1,Clinic,2.0,0,0,0,0,0,39,0,1.0
+P10393,E200452,2025-09-13,2025-09-23 00:00:00,Pulmonology,I21,25,M,Private,Yes,3,ER,10.0,I21,Acute myocardial infarction,Cardiology,0,1,26,0,1.0
+P10393,E200454,2025-10-19,2025-10-20 00:00:00,Surgery,J45,37,M,Private,No,1,ER,1.0,J45,Asthma,Pulmonology,0,0,48,0,2.0
+P10394,E200457,2024-07-14,0,Surgery,R07,71,F,Self-pay,No,1,ER,0.0,R07,Chest pain,Emergency,0,0,19,0,0.0
+P10394,E200455,2025-01-03,2025-01-06 00:00:00,Orthopedics,G40,90,F,Self-pay,No,1,ER,3.0,G40,Epilepsy and recurrent seizures,Neurology,0,0,198,0,2.0
+P10394,E200456,2025-07-15,2025-07-16 00:00:00,Cardiology,G40,84,F,Self-pay,Yes,1,ER,1.0,G40,Epilepsy and recurrent seizures,Neurology,0,0,23,0,1.0
+P10395,E200459,2024-10-25,2024-10-28 00:00:00,Orthopedics,I6,45,M,Private,No,2,ER,3.0,0,0,0,0,0,36,0,1.0
+P10395,E200460,2025-04-21,2025-04-24 00:00:00,Neurology,N39,46,M,Private,No,3,ER,3.0,N39,"Urinary tract infection, site not specified",Urology,0,0,1,0,3.0
+P10395,E200458,2025-06-09,0,Neurology,K21,51,M,Private,No,3,ER,0.0,K21,Gastro-esophageal reflux disease,Gastroenterology,0,1,5,0,2.0
+P10396,E200463,2024-11-16,2024-11-19 00:00:00,Orthopedics,C34,9,M,Private,Yes,2,Clinic,3.0,C34,Malignant neoplasm of bronchus and lung,Oncology,0,0,140,0,4.0
+P10396,E200462,2024-12-16,2024-12-21 00:00:00,Pulmonology,J45,34,M,Private,No,2,Clinic,5.0,J45,Asthma,Pulmonology,0,0,8,0,3.0
+P10396,E200461,2025-07-30,0,Pulmonology,E11,41,M,Private,No,4,ER,0.0,E11,Type 2 diabetes mellitus,Endocrinology,0,0,8,0,4.0
+P10397,E200466,2025-04-28,2025-05-03 00:00:00,Oncology,N39,7,F,Private,Yes,2,Clinic,5.0,N39,"Urinary tract infection, site not specified",Urology,0,0,10,0,2.0
+P10397,E200464,2025-05-06,2025-05-10 00:00:00,Neurology,K21,6,F,Private,Yes,2,ER,4.0,K21,Gastro-esophageal reflux disease,Gastroenterology,0,0,9,0,2.0
+P10397,E200465,2025-06-03,2025-06-04 00:00:00,Cardiology,E11,0,F,Private,No,1,ER,1.0,E11,Type 2 diabetes mellitus,Endocrinology,0,0,67,0,3.0
+P10398,E200468,2024-12-31,2025-01-03 00:00:00,Cardiology,J18,53,M,Private,No,2,ER,3.0,J18,"Pneumonia, unspecified organism",Pulmonology,0,0,25,0,1.0
+P10398,E200469,2025-04-14,2025-04-15 00:00:00,Surgery,J45,48,M,Private,No,1,Clinic,1.0,J45,Asthma,Pulmonology,0,0,9,0,3.0
+P10398,E200467,2025-09-04,2025-09-14 00:00:00,General Medicine,F32,52,M,Private,No,2,Transfer,10.0,F32,"Major depressive disorder, single episode",Psychiatry,0,0,12,0,2.0
+P10399,E200472,2024-07-14,2024-07-17 00:00:00,General Medicine,M54,11,M,Private,No,1,Clinic,3.0,M54,Dorsalgia (back pain),Orthopedics,0,0,31,0,1.0
+P10399,E200471,2025-03-08,2025-03-16 00:00:00,Pulmonology,N39,24,M,Private,Yes,2,ER,8.0,N39,"Urinary tract infection, site not specified",Urology,0,0,61,0,1.0
+P10399,E200470,2025-04-08,2025-04-09 00:00:00,General Medicine,J45,20,M,Private,No,1,Clinic,1.0,J45,Asthma,Pulmonology,0,1,9,0,1.0
